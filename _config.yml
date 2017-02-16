@@ -12,74 +12,65 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 # Site Settings
 title: "source{d} tech talks"
 email: "talks@sourced.tech"
-description: "GDG DevFest is a set of events all around the world"
+description: "source{d} tech talks is a one day conference about infrastructure"
 baseurl: ""
 url: "https://talks.sourced.tech"
 permalink: "/blog/:title"
-googleAnalyticsTrackingId: "UA-69608223-"
+googleAnalyticsTrackingId: "UA-69608223-4"
 googleAnalyticsSiteUrl: "talks.sourced.tech"
 siteVerification: "b9imDOrFawXaBXCC4r3uJDdswSYcalD-wWpMYhFq-no"
 
 # Organizer Info
 organizerName: "source{d}"
 organizerAlternateName: "source{d} tech talks"
-organizerDescription: "Open and volunteer geek communities who create exciting projects and share experience about Google technology with passion."
+organizerDescription: "source{d} tech talks is a one-day conference about Infrastructure"
 organizerEmail: "talks@sourced.tech"
 organizerLogo: "http://sourced.tech/img/logos/logo-blue.svg"
 organizerLink: "http://sourced.tech/"
 
 # Head
-metaKeywords: "event, gdg, devfest, google, programming, android, chrome, developers, lviv"
-twitterAccount: "@DevFest"
+metaKeywords: "event, talks, tech, srcd, devops, infrastructure, sourced, developers, madrid"
+twitterAccount: "@srcd_"
 socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png"
 socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
 socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 
-# Documents
-c4pUrl: "https://bit.ly/dfua-c4p"
-c4sponsorsUrl: "/assets/GDG_DevFest_Partnership.pdf"
-
-
 # Navigation
 navigationLinks:
  - {permalink: "/", text: "Home"}
- - {permalink: "/blog/", text: "Blog"}
+ - {permalink: "blog.sourced.tech", text: "Blog"}
  - {permalink: "/schedule/", text: "Schedule"}
  - {permalink: "/speakers/", text: "Speakers"}
- - {permalink: "/team/", text: "Team"}
- - {permalink: "/logistics/", text: "Logistics"}
- - {permalink: "/hackathon/", text: "Hackathon"}
-bottomNavigationLinks:
- - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
 rightNavigationButtons:
- - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
+ - {link: "https://bit.ly/dfua-c4p", text: "Register"}
 
 # Hero Block
 heroImage: "hero.jpg"
-heroTitle: "GDG DevFest <typeout> 2014"
-eventDate: "September - November, 2014"
-typeoutTextValues: '"", "Season", "Ukraine", "Germany", "USA"'
-typeoutFallback: "Season"
+heroTitle: "source{d} tech talks <typeout> 2017"
+eventDate: "27th of March"
+typeoutTextValues: '"", "Infrastructure", "Madrid", "First Edition"'
+typeoutFallback: "Infrastructure"
 heroButtons:
- - {permalink: "/#tickets", text: "Buy tickets"}
+ - {permalink: "/#tickets", text: "Register"}
 
 # About Block
-aboutTitle: "About GDG DevFest"
+aboutTitle: "About source{d} tech talks"
 aboutBlock:
- - {title: "Conference", image: "conference.jpg", text: "The biggest Google related event in the country carefully crafted for you by GDG community! Awesome speakers and lots of fun!" }
- - {title: "Workshops", image: "workshop.jpg", text: "Full-day of workshops, hands-on experience, hacking and debugging. Come and tame your favourite technology!" }
- - {title: "Hackathon", image: "hackathon.jpg", text: "Full-day freestyle hackathon! Want some real team building on friday? Grab your team and join our hackathon!" }
+ - {title: "Main Talks", image: "main-talks.jpg", text: "We will hold five main talks throughout the day. These will last for 45min with time for Q&A." }
+ - {title: "Lightning Talks", image: "lightning-talks.jpg", text: "There will be two shorter talks held to address more specific topics." }
+ - {title: "Food & Beers", image: "food-beers.jpg", text: "Besides breakfast, lunch and snacks, we will be launching our very own source{d} beer that day!" }
+
 
 # Statistic Block
 statisticBlockImage: "statistic.jpg"
 statisticBlock:
- - {count: "350", specialCharacter: "+", info: "attendees", detail: "from everywhere"}
- - {count: "48", specialCharacter: "+", info: "hours", detail: "of pure Google technologies"}
- - {count: "20", specialCharacter: "+", info: "speakers", detail: "from country and beyond"}
- - {count: "3", specialCharacter: "", info: "parallel tracks", detail: "plus entertainment lounge"}
+ - {count: "75", specialCharacter: "+", info: "attendees", detail: "from everywhere"}
+ - {count: "8", specialCharacter: "+", info: "hours", detail: "of pure Infrastructure talks"}
+ - {count: "7", info: "speakers", detail: "from Spain and beyond"}
 
-# Latest News Block
-latestNewsTitle: "Latest news"
+
+
+
 
 # Rockstar Speakers Block
 rockstarSpeakersImage: "rockstar-speakers.jpg"
@@ -89,49 +80,47 @@ rockstarSpeakersButtonText: "See all speakers"
 
 # Location Block
 locationBlockTitle: "Location"
-eventLocationName: "Conference Hall"
-eventLocationLink: "http://cabinet.kinopalace.lviv.ua/showtimes/"
-eventStreetAddress: "22 Teatral'na St"
-eventAddressLocality: "Lviv"
-eventAddressLocalityRegion: "Lvivska"
-eventPostalCode: "79000"
-eventAddressCountry: "Ukraine"
-eventStartTime: "2014-10-25T10:00"
+eventLocationName: "source{d} offices"
+eventStreetAddress: "Claudio Coello 16, 2 Izq."
+eventAddressLocality: "Madrid"
+eventPostalCode: "28001"
+eventAddressCountry: "Spain"
+eventStartTime: "2017-03-25T09:00"
 eventDoorTime: "09:00"
-eventEndTime: "2014-10-25T20:00"
-eventPlaceCoordinates: "49.843237, 24.028751"
-mapCenterCoordinates: "49.842537, 24.025701"
-mapMobileCenterCoordinates: "49.841620, 24.029411"
+eventEndTime: "2017-03-25T18:00"
+eventPlaceCoordinates: "40.422259,-3.6866953999999623"
+mapCenterCoordinates: "40.422259,-3.6866953999999623"
+mapMobileCenterCoordinates: "40.4223713,-3.6877897"
 
 # Venue Block
-venueBlockTitle: "Venue"
-venueBigImage: "venue_0.jpg"
-venueSmallImage1: "venue_1.jpg"
-venueSmallImage2: "venue_2.jpg"
-venueSmallImage3: "venue_3.jpg"
-venueTitle: "Kinopalace Cinema"
-venueFeatures: ["3 huge cinema screens", "Doulby Digital Surround EX audio system", "Located directly in the city center"]
+#venueBlockTitle: "Venue"
+#venueBigImage: "venue_0.jpg"
+#venueSmallImage1: "venue_1.jpg"
+#venueSmallImage2: "venue_2.jpg"
+#venueSmallImage3: "venue_3.jpg"
+#venueTitle: "Kinopalace Cinema"
+#venueFeatures: ["3 huge cinema screens", "Doulby Digital Surround EX audio system", "Located directly in the city center"]
 
 # Tweets Feed Block
 tweetsFeedImage: "twitter-feed.jpg"
 tweetsFeedTitle: "What's Up?"
-twitterHashTag: "devfest"
-twitterFeed: "http://lviv.gdg.org.ua/tweetledee/favoritesjson.php?c=10&cache_interval=8000"
+twitterHashTag: "sourcedtalks"
+twitterFeed: "http://lviv.gdg:.org.ua/tweetledee/favoritesjson.php?c=10&cache_interval=8000"
 
 # Partners Block
-organizersTitle: "Organizers"
-partnersTitle: "Partners"
-partnersC4sponsorsButton: "Become a sponsor"
+#organizersTitle: "Organizers"
+#partnersTitle: "Partners"
+#partnersC4sponsorsButton: "Become a sponsor"
 
 # Subscribe Block
 subscribeImage: "subscribe.jpg"
 subscribeTitle: "Subscribe for updates"
-subscribeAction: "https://gdg.us5.list-manage1.com/subscribe/post?u=9fc8aa205b0521b5f05fc8e1e&amp;id=ae0fb459fc"
-subscribeInfo: "Registration will be open around end of August. Number of tickets are limited. Stay tuned!"
+subscribeAction: "http://eepurl.com/cCoHPf"
+subscribeInfo: "Registration will be open until the day before the event but attendees are limited. Stay tuned!"
 
 # Tickets Block
-ticketsTitle: "Pricetable"
-ticketsInfo: "Tickets grant access to all conference sections, coffee brakes, lunch and party. Accommodation is NOT included in the ticket price."
+#ticketsTitle: "Pricetable"
+#ticketsInfo: "Tickets grant access to all conference sections, coffee brakes, lunch and party. Accommodation is NOT included in the ticket price."
 ticketsOffers:
  -
   name: "Early Bird"
