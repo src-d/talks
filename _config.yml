@@ -60,8 +60,8 @@ Topics will be focused on computer science and software engineering, such as inf
 If you have any recommendations for future topics, speaker suggestions, or feedback for the organizers, please don't hesitate to get in touch at talks@sourced.tech."}
 
 aboutBlock:
- - {title: "Main Talks", image: "main-talks (1).jpg", text: "We will hold five main talks throughout the day. These will last for 45min with time for Q&A." }
- - {title: "Lightning Talks", image: "lightning-talks (1).jpg", text: "There will be two shorter talks held to address more specific topics." }
+ - {title: "Main Talks", image: "main-talks.jpg", text: "We will hold five main talks throughout the day. These will last for 45min with time for Q&A." }
+ - {title: "Lightning Talks", image: "lightning-talks.jpg", text: "There will be two shorter talks held to address more specific topics." }
  - {title: "Food & Beers", image: "food-beers.jpg", text: "Besides breakfast, lunch and snacks, we will be launching our very own source{d} beer that day!" }
 
 
