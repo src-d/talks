@@ -7,10 +7,10 @@
     user-select: none;
     text-transform: uppercase;
     border: 0;
-    background: $primary-color !important;
+    background-color: $primary-color;
     &:hover, &:focus, &:active, &.active {
         outline: none;
         color: #fff;
-        background: $primary-color-hover;
+        background-color: $primary-color-hover;
     }
 }

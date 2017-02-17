@@ -32,8 +32,8 @@ $link-color: $main-color;
 $link-lighten-amount: 20%;
 $base-background-color: #fff;
 $base-section-background-color: $link-color;
-$primary-color: #4285f4;
-$primary-color-hover: #3266d5;
+$primary-color: #33526c;
+$primary-color-hover: lighten($primary-color, 20%);
 $icon-fill-color: #8b8b8b;
 
 // Sizes
