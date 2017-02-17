@@ -40,24 +40,28 @@ navigationLinks:
  - {permalink: "/", text: "Home"}
  - {permalink: "/schedule/", text: "Schedule"}
  - {permalink: "/speakers/", text: "Speakers"}
- - {permalink: "blog.sourced.tech", text: "Blog"}
+ - {link: "https://blog.sourced.tech", text: "Blog"}  
 rightNavigationButtons:
  - {link: "https://bit.ly/dfua-c4p", text: "Register"}
 
 # Hero Block
 heroImage: "hero.jpg"
 heroTitle: "source{d} tech talks <typeout> 2017"
-eventDate: "27th of March"
+eventDate: "25th of March"
 typeoutTextValues: '"", "Infrastructure", "Madrid", "First Edition"'
 typeoutFallback: "Infrastructure"
 heroButtons:
  - {permalink: "/#tickets", text: "Register"}
 
 # About Block
-aboutTitle: "About source{d} tech talks"
+aboutTitle: "About our tech talks"
+aboutBlock: {bio: "We will be hosting great speakers in an informal setting every ~3 months. Each series of talks will cover a different topic targeted to an experienced technical audience. Speakers will be invited both from Spain and abroad. <br>
+Topics will be focused on computer science and software engineering, such as infrastructure management, information retrieval, programming languages and distributed computing. The first one will cover advanced infratstructure topics. <br>
+If you have any recommendations for future topics, speaker suggestions, or feedback for the organizers, please don't hesitate to get in touch at talks@sourced.tech."}
+
 aboutBlock:
- - {title: "Main Talks", image: "main-talks.jpg", text: "We will hold five main talks throughout the day. These will last for 45min with time for Q&A." }
- - {title: "Lightning Talks", image: "lightning-talks.jpg", text: "There will be two shorter talks held to address more specific topics." }
+ - {title: "Main Talks", image: "main-talks (1).jpg", text: "We will hold five main talks throughout the day. These will last for 45min with time for Q&A." }
+ - {title: "Lightning Talks", image: "lightning-talks (1).jpg", text: "There will be two shorter talks held to address more specific topics." }
  - {title: "Food & Beers", image: "food-beers.jpg", text: "Besides breakfast, lunch and snacks, we will be launching our very own source{d} beer that day!" }
 
 
@@ -82,19 +86,19 @@ eventStreetAddress: "Claudio Coello 16, 2 Izq."
 eventAddressLocality: "Madrid"
 eventPostalCode: "28001"
 eventAddressCountry: "Spain"
-eventStartTime: "2017-03-25T09:00"
-eventDoorTime: "09:00"
-eventEndTime: "2017-03-25T18:00"
+eventStartTime: "2017-03-25T09:30"
+eventDoorTime: "09:30"
+eventEndTime: "2017-03-25T17:30"
 eventLocationMap: "https://www.google.es/maps/place/Calle+de+Claudio+Coello,+16,+28001+Madrid/"
 eventPlaceCoordinates: "40.422259,-3.6866953999999623"
-mapCenterCoordinates: "40.422259,-3.6866953999999623"
-mapMobileCenterCoordinates: "40.4223713,-3.6877897"
+mapCenterCoordinates: "40.4222631,-3.6888894"
+mapMobileCenterCoordinates: "40.4222631,-3.6888894"
 
 # Tweets Feed Block
 tweetsFeedImage: "twitter-feed.jpg"
-tweetsFeedTitle: "What's Up?"
+tweetsFeedTitle: "Tweet us at"
 twitterHashTag: "sourcedtalks"
-twitterFeed: "http://lviv.gdg:.org.ua/tweetledee/favoritesjson.php?c=10&cache_interval=8000"
+#twitterFeed: "http://lviv.gdg:.org.ua/tweetledee/favoritesjson.php?c=10&cache_interval=8000"
 
 # Partners Block
 #organizersTitle: "Organizers"

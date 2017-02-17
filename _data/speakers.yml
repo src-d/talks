@@ -41,22 +41,22 @@
   surname: "Meruelo"
   company: "source{d}"
   title: "Infrastructure Engineer"
-  bio: "Roman started his way in Android 5 years ago and fall in love with this platform. Currently he is a head of Android unit in Stanfy LLC and a co-organizer of Kyiv Google Developers Group focusing on Android development. Roman is responsible for building a strong team of Android developers inside Stanfy as well as for organizing Android professionals community in Kyiv."
+  bio: "When back in 1994 Sonia installed her first GNU/Linux system and read the BOFH stories, she knew she would be a SysAdmin for a living. She is now a DevOps engineer at source{d}, where she is building the containerized infrastructure that will store and analyze every existing OSS git repository in the world. Programmer for fun, she has recently seen the light while learning Common Lisp."
   thumbnailUrl: Sonia-Meruelo.jpg
   rockstar: true
   social: 
     - {name: "linkedin", link: "https://es.linkedin.com/in/smeruelo"}
     - {name: "twitter", link: "https://twitter.com/tekess"}
     - {name: "github", link: "https://github.com/smeruelo"}  
-- 
-  id: 7
-  name: ""
-  surname: ""
-  company: ""
-  title: ""
-  bio: ""
-  thumbnailUrl: 
-  rockstar:
-  social: 
-    - {name: "google-plus", link: ""}
-    - {name: "site", link: ""}
+#- 
+  #id: 7
+  #name: ""
+  #surname: ""
+  #company: ""
+  #title: ""
+  #bio: ""
+  #thumbnailUrl: 
+  #rockstar:
+  #social: 
+  #  - {name: "google-plus", link: ""}
+  #  - {name: "site", link: ""}

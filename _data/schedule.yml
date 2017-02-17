@@ -2,7 +2,7 @@
   date: "2017-03-25"
   dateReadable: "March 25th"
   tracks:
-    - {title: "Infrastructure", color: "#e91e63"}
+    - {title: "What", color: "#e91e63"}
   timeslots:
     - {
     	startTime: "09:30",
