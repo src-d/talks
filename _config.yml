@@ -42,7 +42,7 @@ navigationLinks:
  - {permalink: "/speakers/", text: "Speakers"}
  - {link: "https://blog.sourced.tech", text: "Blog"}  
 rightNavigationButtons:
- - {link: "https://bit.ly/dfua-c4p", text: "Register"}
+ - {link: "https://www.eventbrite.com/e/sourced-tech-talks-infrastructure-tickets-32181636140", text: "Register"}
 
 # Hero Block
 heroImage: "hero.jpg"
@@ -51,7 +51,7 @@ eventDate: "25th of March"
 typeoutTextValues: '"", "Infrastructure", "Madrid", "First Edition"'
 typeoutFallback: "Infrastructure"
 heroButtons:
- - {permalink: "/#tickets", text: "Register"}
+ - {link: "https://www.eventbrite.com/e/sourced-tech-talks-infrastructure-tickets-32181636140", text: "Register"}
 
 # About Block
 aboutTitle: "About our tech talks"
