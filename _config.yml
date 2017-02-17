@@ -98,7 +98,7 @@ mapMobileCenterCoordinates: "40.4222631,-3.6888894"
 tweetsFeedImage: "twitter-feed.jpg"
 tweetsFeedTitle: "Tweet us at"
 twitterHashTag: "sourcedtalks"
-#twitterFeed: "http://lviv.gdg:.org.ua/tweetledee/favoritesjson.php?c=10&cache_interval=8000"
+#twitterFeed: "http://lviv.gdg.org.ua/tweetledee/favoritesjson.php?c=10&cache_interval=8000"
 
 # Partners Block
 #organizersTitle: "Organizers"
