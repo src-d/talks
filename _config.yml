@@ -42,22 +42,20 @@ navigationLinks:
  - {permalink: "/speakers/", text: "Speakers"}
  - {link: "https://blog.sourced.tech", text: "Blog"}  
 rightNavigationButtons:
- - {link: "https://www.eventbrite.com/e/sourced-tech-talks-infrastructure-tickets-32181636140", text: "Register"}
+ - {link: "https://www.eventbrite.com/e/sourced-tech-talks-infrastructure-tickets-32181636140", text: "Get your ticket"}
 
 # Hero Block
 heroImage: "hero.jpg"
 heroTitle: "source{d} tech talks <typeout> 2017"
-eventDate: "25th of March"
-typeoutTextValues: '"", "Infrastructure", "Madrid", "First Edition"'
+eventDate: "Infrastructure Series - 25th of March"
+typeoutTextValues: '"Infrastructure", "Madrid", "First Series"'
 typeoutFallback: "Infrastructure"
 heroButtons:
- - {link: "https://www.eventbrite.com/e/sourced-tech-talks-infrastructure-tickets-32181636140", text: "Register"}
+ - {link: "https://www.eventbrite.com/e/sourced-tech-talks-infrastructure-tickets-32181636140", text: "Get your ticket"}
 
 # About Block
 aboutTitle: "About our tech talks"
-aboutBlock: {bio: "We will be hosting great speakers in an informal setting every ~3 months. Each series of talks will cover a different topic targeted to an experienced technical audience. Speakers will be invited both from Spain and abroad. <br>
-Topics will be focused on computer science and software engineering, such as infrastructure management, information retrieval, programming languages and distributed computing. The first one will cover advanced infratstructure topics. <br>
-If you have any recommendations for future topics, speaker suggestions, or feedback for the organizers, please don't hesitate to get in touch at talks@sourced.tech."}
+aboutIntro: "We will be hosting great speakers in an informal setting <strong>every ~3 months</strong>. Each series of talks will cover a different topic <strong>targeted to an experienced technical audience</strong>. Speakers will be invited both <strong>from Spain and abroad</strong>."
 
 aboutBlock:
  - {title: "Main Talks", image: "main-talks.jpg", text: "We will hold five main talks throughout the day. These will last for 45min with time for Q&A." }
@@ -76,7 +74,7 @@ statisticBlock:
 # Rockstar Speakers Block
 rockstarSpeakersImage: "rockstar-speakers.jpg"
 rockstarSpeakersCount: 4
-rockstarSpeakersTitle: "Rockstar speakers"
+rockstarSpeakersTitle: "Some speakers"
 rockstarSpeakersButtonText: "See all speakers"
 
 # Location Block

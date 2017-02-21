@@ -10,7 +10,7 @@
   social: 
     - {name: "linkedin", link: "https://ie.linkedin.com/in/deibyz"}
     - {name: "twitter", link: "https://twitter.com/deibyz"}
-- 
+-
   id: 4
   name: "James"
   surname: "Reilly"
@@ -22,7 +22,7 @@
   social: 
     - {name: "linkedin", link: "https://ie.linkedin.com/in/james-reilly-19610923"}
     - {name: "twitter", link: "https://twitter.com/servsockd"}
-- 
+-
   id: 5
   name: "Alfonso"
   surname: "Acosta"
@@ -35,7 +35,7 @@
     - {name: "linkedin", link: "https://es.linkedin.com/in/acostaalfonso"}
     - {name: "twitter", link: "https://twitter.com/2opremio"}
     - {name: "github", link: "https://github.com/2opremio"}  
-- 
+-
   id: 6
   name: "Sonia"
   surname: "Meruelo"
@@ -43,20 +43,21 @@
   title: "Infrastructure Engineer"
   bio: "When back in 1994 Sonia installed her first GNU/Linux system and read the BOFH stories, she knew she would be a SysAdmin for a living. She is now a DevOps engineer at source{d}, where she is building the containerized infrastructure that will store and analyze every existing OSS git repository in the world. Programmer for fun, she has recently seen the light while learning Common Lisp."
   thumbnailUrl: Sonia-Meruelo.jpg
-  rockstar: true
-  social: 
+  rockstar: false
+  social:
     - {name: "linkedin", link: "https://es.linkedin.com/in/smeruelo"}
     - {name: "twitter", link: "https://twitter.com/tekess"}
-    - {name: "github", link: "https://github.com/smeruelo"}  
-#- 
-  #id: 7
-  #name: ""
-  #surname: ""
-  #company: ""
-  #title: ""
-  #bio: ""
-  #thumbnailUrl: 
-  #rockstar:
-  #social: 
-  #  - {name: "google-plus", link: ""}
-  #  - {name: "site", link: ""}
+    - {name: "github", link: "https://github.com/smeruelo"}
+-
+  id: 7
+  name: "Santiago"
+  surname: "M. Mola"
+  company: "source{d}"
+  title: "Lead Data Engineer"
+  bio: "Santiago is currently the Lead Data Engineer at source{d}, working on a data pipeline to fetch and analyze all open source repositories found online. He currently works on the go-git and gitql open source projects. Santiago previously worked at Stratio, developing products based on the Apache Hadoop ecosystem and Apache Spark. He used to be a Gentoo Linux developer."
+  thumbnailUrl: Santiago_LT.jpg
+  rockstar: true
+  social:
+    - {name: "linkedin", link: "https://es.linkedin.com/in/santiagomola"}
+    - {name: "twitter", link: "https://twitter.com/mola_io"}
+    - {name: "github", link: "https://github.com/smola"}
