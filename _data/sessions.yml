@@ -24,22 +24,34 @@
   description: "After a long day of talks what better than enjoying our own source{d} beer!"
 -
   id: 001
-  title: "Talk #1"
-  description: "Coming soon."
+  title: "Welcome"
+  description: ""
   subtype: presentation
-  speakers: []
+  speakers: [Maximo Cuadros]
   language: en
   complexity: "Intermediate"
 -
   id: 002
-  title: "Talk #2"
+  title: "Talk #1"
   description: "Coming soon."
   subtype: presentation
-  speakers: []
+  speakers: [4]
   language: en
   complexity: "Intermediate"
 -
   id: 003
+  title: "High-performance Linux monitoring with eBPF"
+  description: "Extended Berkeley Packet Filter (eBPF) allows for high-performance introspection of the Linux kernel execution. eBPF is widely available (part of the mainline kernel and enabled by most distributions), flexible (any kernel code path can be probed) and safe (driven from userspace and statically verified).
+  
+  In this talk, I will introduce eBPF, explaining how it can be used to track TCP connections in real time. On the way I will demonstrate it is possible to access eBPF from languages other than C (Golang) and remove undesirable runtime dependencies (LLVM compiler and kernel-headers).
+  
+  At Weaveworks we are using eBPF to implement the next-generation connection-tracker of the Weave Scope visualization tool."
+  subtype: presentation
+  speakers: [5]
+  language: en
+  complexity: "Intermediate"
+-
+  id: 004
   title: "Talk #3"
   description: "Coming soon."
   subtype: presentation
@@ -47,36 +59,36 @@
   language: en
   complexity: "Intermediate"
 -
-  id: 004
-  title: "Talk #4"
-  description: "Conins soon."
+  id: 005
+  title: "The many journeys of a disk write"
+  description: "This talk will try to cover in different degrees of detail the many different ways in which data can be written to disk, trying to cover as many potential paths as possible, from the user space to the device HW (or lack of thereof in virtual environments)."
   subtype: presentation
-  speakers: []
+  speakers: [3]
   language: en
   complexity: "Intermediate"
 -
-  id: 005
-  title: "Talk #5"
+  id: 006
+  title: "Optimizing And Scaling Git Repository Storage"
   description: "Coming soon."
   subtype: presentation
-  speakers: []
+  speakers: [8]
   language: en
   complexity: "Intermediate"
 
 -
   id: 301
-  title: "Lighting Talk #1"
-  description: "Coming soon."
+  title: "From 0 to anomaly detection in your infrastructure metrics in 15 minutes"
+  description: "Using the NuPIC framework (https://github.com/numenta/nupic/tree/master/src/nupic), we will show the basics of Anomaly Detection using HTM ( Hierarchical Temporal Memory), and perform a demo trying to detect an anomaly in an infrastructure metric (such as a host CPU)."
   subtype: lighting
-  speakers: []
+  speakers: [6]
   language: en
   complexity: "Intermediate"
 
 -
   id: 302
-  title: "Lighting Talk #2"
+  title: "Booting up your cattle with Ignition and Matchbox "
   description: "Coming soon."
   subtype: lighting
-  speakers: []
+  speakers: [7]
   language: en
   complexity: "Intermediate"

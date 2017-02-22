@@ -58,8 +58,8 @@ aboutTitle: "About our tech talks"
 aboutIntro: "We will be hosting great speakers in an informal setting <strong>every ~3 months</strong>. Each series of talks will cover a different topic <strong>targeted to an experienced technical audience</strong>. Speakers will be invited both <strong>from Spain and abroad</strong>."
 
 aboutBlock:
- - {title: "Main Talks", image: "main-talks.jpg", text: "We will hold five main talks throughout the day. These will last for 45min with time for Q&A." }
- - {title: "Lightning Talks", image: "lightning-talks.jpg", text: "There will be two shorter talks held to address more specific topics." }
+ - {title: "Main Talks", image: "main-talks-icon.jpg", text: "We will hold five main talks throughout the day. These will last for 45min with time for Q&A." }
+ - {title: "Lightning Talks", image: "lightning-talks-icon.jpg", text: "There will be two shorter talks held to address more specific topics." }
  - {title: "Food & Beers", image: "food-beers.jpg", text: "Besides breakfast, lunch and snacks, we will be launching our very own source{d} beer that day!" }
 
 

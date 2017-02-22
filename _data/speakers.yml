@@ -35,8 +35,21 @@
     - {name: "linkedin", link: "https://es.linkedin.com/in/acostaalfonso"}
     - {name: "twitter", link: "https://twitter.com/2opremio"}
     - {name: "github", link: "https://github.com/2opremio"}  
--
+- 
   id: 6
+  name: "Alejandro"
+  surname: "Guirao"
+  company: "Intelygenz"
+  title: "DevOps Engineer"
+  bio: "Alex fell in love with Linux more than 15 years ago. He works as a DevOps Engineer automating-all-the-things and tinkering with containers, clouds, orchestration and other words that have a different meaning for most of the human beings. He also enjoys programming, Python and Golang being his preferred tools. Maybe you can find him trying to spot tupperwares in the deep forest using a GPS (Geocaching) or talking to people in other countries from a mountain summit using a fishing pole and some wires."
+  thumbnailUrl: thinking.jpg
+  rockstar: false
+  social:
+    - {name: "linkedin", link: "https://es.linkedin.com/in/alejandro-guirao-rodríguez-744232a"}
+    - {name: "twitter", link: "https://twitter.com/lekum"}
+    - {name: "github", link: "https://github.com/lekum"}       
+-
+  id: 7
   name: "Sonia"
   surname: "Meruelo"
   company: "source{d}"
@@ -49,7 +62,7 @@
     - {name: "twitter", link: "https://twitter.com/tekess"}
     - {name: "github", link: "https://github.com/smeruelo"}
 -
-  id: 7
+  id: 8
   name: "Santiago"
   surname: "M. Mola"
   company: "source{d}"
