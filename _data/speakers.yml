@@ -74,3 +74,17 @@
     - {name: "linkedin", link: "https://es.linkedin.com/in/santiagomola"}
     - {name: "twitter", link: "https://twitter.com/mola_io"}
     - {name: "github", link: "https://github.com/smola"}
+#-
+#  id: 9
+#  name: "Maximo"
+#  surname: "Cuadros"
+#  company: "source{d}"
+#  title: "VP of Engineering"
+#  bio: ""
+#  thumbnailUrl: maximo-cuadros.png
+#  rockstar: true
+#  social:
+#    - {name: "linkedin", link: "https://es.linkedin.com/in/mcuadros"}
+#    - {name: "twitter", link: "https://twitter.com/mcuadros_"}
+#    - {name: "github", link: "https://github.com/mcuadros"}
+

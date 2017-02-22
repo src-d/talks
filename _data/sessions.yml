@@ -87,7 +87,7 @@
 -
   id: 302
   title: "Booting up your cattle with Ignition and Matchbox "
-  description: "Coming soon."
+  description: "Ignition is a tool designed to apply configuration to CoreOS systems early in the boot process. Matchbox matches hardware with the proper templates and renders the specific configuration for a server. Both utilities, used together, become a simple and powerful way to provision hundreds of bare metal servers in a matter of minutes. A brief introduction to these tools will be covered in this talk."
   subtype: lighting
   speakers: [7]
   language: en
