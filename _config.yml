@@ -40,12 +40,12 @@ navigationLinks:
  - {permalink: "/", text: "Home"}
  - {permalink: "/schedule/", text: "Schedule"}
  - {permalink: "/speakers/", text: "Speakers"}
- - {link: "https://blog.sourced.tech", text: "Blog"}  
+ - {link: "https://blog.sourced.tech", text: "Blog"}
 rightNavigationButtons:
  - {link: "https://www.eventbrite.com/e/sourced-tech-talks-infrastructure-tickets-32181636140", text: "Get your ticket"}
 
 # Hero Block
-heroImage: "hero.jpg"
+heroImage: "venue/turing.jpg"
 heroTitle: "source{d} tech talks <typeout> 2017"
 eventDate: "Infrastructure Series - 25th of March"
 typeoutTextValues: '"Infrastructure", "Madrid", "First Series"'
@@ -64,7 +64,7 @@ aboutBlock:
 
 
 # Statistic Block
-statisticBlockImage: "statistic.jpg"
+statisticBlockImage: "venue/lovelace.jpg"
 statisticBlock:
  - {count: "75", specialCharacter: "+", info: "attendees", detail: "from everywhere"}
  - {count: "8", specialCharacter: "+", info: "hours", detail: "of pure Infrastructure talks"}
@@ -72,7 +72,7 @@ statisticBlock:
 
 
 # Rockstar Speakers Block
-rockstarSpeakersImage: "rockstar-speakers.jpg"
+rockstarSpeakersImage: "venue/turing.jpg"
 rockstarSpeakersCount: 4
 rockstarSpeakersTitle: "Some speakers"
 rockstarSpeakersButtonText: "See all speakers"
@@ -104,7 +104,7 @@ twitterHashTag: "sourcedtalks"
 #partnersC4sponsorsButton: "Become a sponsor"
 
 # Subscribe Block
-subscribeImage: "subscribe.jpg"
+subscribeImage: "venue/ritchie.jpg"
 subscribeTitle: "Subscribe for updates"
 subscribeAction: "http://eepurl.com/cCoHPf"
 subscribeInfo: "Registration will be open until the day before the event but attendees are limited. Stay tuned!"
