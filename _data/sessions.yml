@@ -18,7 +18,7 @@
   description: "A stand-up lunch will be served and we will provide vegetarian and gluten-free options."
 -
   id: 103
-  title: "BEER!"
+  title: "BEERS"
   place: "Hall"
   service: true
   description: "After a long day of talks what better than enjoying our own source{d} beer!"
@@ -52,7 +52,7 @@
   complexity: "Intermediate"
 -
   id: 004
-  title: "Talk #3"
+  title: "Talk #2"
   description: "Coming soon."
   subtype: presentation
   speakers: []
@@ -68,7 +68,7 @@
   complexity: "Intermediate"
 -
   id: 006
-  title: "Optimizing And Scaling Git Repository Storage"
+  title: "Talk #5"
   description: "Coming soon."
   subtype: presentation
   speakers: [8]
@@ -76,7 +76,7 @@
   complexity: "Intermediate"
 
 -
-  id: 301
+  id: 302
   title: "From 0 to anomaly detection in your infrastructure metrics in 15 minutes"
   description: "Using the NuPIC framework (https://github.com/numenta/nupic/tree/master/src/nupic), we will show the basics of Anomaly Detection using HTM ( Hierarchical Temporal Memory), and perform a demo trying to detect an anomaly in an infrastructure metric (such as a host CPU)."
   subtype: lighting
@@ -85,9 +85,9 @@
   complexity: "Intermediate"
 
 -
-  id: 302
-  title: "Booting up your cattle with Ignition and Matchbox "
-  description: "Coming soon."
+  id: 303
+  title: "Booting up your cattle with Ignition and Matchbox"
+  description: "Ignition is a tool designed to apply configuration to CoreOS systems early in the boot process. Matchbox matches hardware with the proper templates and renders the specific configuration for a server. Both utilities, used together, become a simple and powerful way to provision hundreds of bare metal servers in a matter of minutes. A brief introduction to these tools will be covered in this talk."
   subtype: lighting
   speakers: [7]
   language: en
