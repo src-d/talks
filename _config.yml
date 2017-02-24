@@ -31,9 +31,9 @@ organizerLink: "http://sourced.tech/"
 # Head
 metaKeywords: "event, talks, tech, srcd, devops, infrastructure, sourced, developers, madrid"
 twitterAccount: "@srcd_"
-socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png"
-socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
-socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
+socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png?v=2"
+socialImageSrcTwitter: "/img/seo/sharing-twitter.png?v=2"
+socialImageSrcFacebook: "/img/seo/sharing-facebook.png?v=2"
 
 # Navigation
 navigationLinks:
