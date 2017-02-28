@@ -1,8 +1,10 @@
 $rockstar-image-size: 140px;
 $small-rockstar-image-size: 120px;
 
-.speaker:not(:hover) .name {
-    background-color: rgba(128, 128, 128, 0.7);
+@media (min-width: 768px) {
+    .speaker:not(:hover) .name {
+        background-color: rgba(128, 128, 128, 0.7);
+    }
 }
 
 .rockstar-more {
