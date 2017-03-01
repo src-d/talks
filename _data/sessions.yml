@@ -42,9 +42,9 @@
   id: 003
   title: "High-performance Linux monitoring with eBPF"
   description: "Extended Berkeley Packet Filter (eBPF) allows for high-performance introspection of the Linux kernel execution. eBPF is widely available (part of the mainline kernel and enabled by most distributions), flexible (any kernel code path can be probed) and safe (driven from userspace and statically verified).
-  
+
   In this talk, I will introduce eBPF, explaining how it can be used to track TCP connections in real time. On the way I will demonstrate it is possible to access eBPF from languages other than C (Golang) and remove undesirable runtime dependencies (LLVM compiler and kernel-headers).
-  
+
   At Weaveworks we are using eBPF to implement the next-generation connection-tracker of the Weave Scope visualization tool."
   subtype: presentation
   speakers: [5]
@@ -52,10 +52,12 @@
   complexity: "Intermediate"
 -
   id: 004
-  title: "Talk #2"
-  description: "Coming soon."
+  title: "One API to rule them all, Rise of the Operators"
+  description: "During this talk, Ivan will show how to unify all your infrastructure under the same API. He will introduce the concept of operators and custom controllers as the next level of automation. If with config management we automated the provisioning and management of infrastructure, with operators and TPRs (Thirdpartyresources) we can automate the provisioning and maintenance of applications running on that infrastructure.
+
+  Ivan will provide patterns and best practices of how to build, test and run your operators. He will showcase a real life example of how using technologies like Kubernetes, NATs and Prometheus have removed friction and increased velocity to running applications in production."
   subtype: presentation
-  speakers: []
+  speakers: [8]
   language: en
   complexity: "Intermediate"
 -
@@ -71,7 +73,7 @@
   title: "Talk #5"
   description: "Coming soon."
   subtype: presentation
-  speakers: [8]
+  speakers: []
   language: en
   complexity: "Intermediate"
 

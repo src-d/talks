@@ -62,4 +62,20 @@
     - {name: "twitter", link: "https://twitter.com/tekess"}
     - {name: "github", link: "https://github.com/smeruelo"}
 
+-
+  id: 8
+  name: "Ivan"
+  surname: "Pedrazas"
+  company: "Soho House & Co"
+  title: "Kubernetes Specialist"
+  bio: "Ivan has a background in development and architecture. He has been helping companies to adopt DevOps and release better software more often. He enjoys designing and building distributed systems. He’s been working with kubernetes in production for almost two years."
+  thumbnailUrl: Ivan-Pedrazas.jpg
+  rockstar: true
+  social:
+    - {name: "linkedin", link: "https://www.linkedin.com/in/ivanpedrazas"}
+    - {name: "twitter", link: "https://twitter.com/ipedrazas"}
+    - {name: "github", link: "https://github.com/ipedrazas"}
+
+
+
 
