@@ -55,7 +55,7 @@
   title: "One API to rule them all, Rise of the Operators"
   description: "During this talk, Ivan will show how to unify all your infrastructure under the same API. He will introduce the concept of operators and custom controllers as the next level of automation. If with config management we automated the provisioning and management of infrastructure, with operators and TPRs (Thirdpartyresources) we can automate the provisioning and maintenance of applications running on that infrastructure.
 
-  Ivan will provide patterns and best practices of how to build, test and run your operators. He will showcase a real life example of how using technologies like Kubernetes, NATs and Prometheus have removed friction and increased velocity to running applications in production."
+  Ivan will provide patterns and best practices of how to build, test and run your operators. He will showcase a real life example of how using technologies like Kubernetes, NATS and Prometheus have removed friction and increased velocity to running applications in production."
   subtype: presentation
   speakers: [8]
   language: en
