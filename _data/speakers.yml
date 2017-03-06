@@ -76,6 +76,17 @@
     - {name: "twitter", link: "https://twitter.com/ipedrazas"}
     - {name: "github", link: "https://github.com/ipedrazas"}
 
-
+-
+  id: 9
+  name: "Joseph"
+  surname: "Jacks"
+  company: "Cloud Native Computing Foundation"
+  title: "Distributed Systems Entrepreneur"
+  bio: ""
+  thumbnailUrl: Joseph-Jacks.jpg
+  rockstar: true
+  social:
+    - {name: "linkedin", link: "https://www.linkedin.com/in/josephjacks"}
+    - {name: "twitter", link: "https://twitter.com/asynchio"}
 
 
