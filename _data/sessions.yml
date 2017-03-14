@@ -70,8 +70,8 @@
   complexity: "Intermediate"
 -
   id: 006
-  title: "Talk #5"
-  description: "Coming soon."
+  title: "Native, Distributed Storage For Kubernetes"
+  description: "Modern software storage systems are inherently complex. They are composed of numerous distributed components, require careful balancing of resources, and have stringent performance requirements. If you're running your applications in a public cloud you're typically shielded from this complexity and can utilize managed storage services like EBS, S3 and EFS. If you're running on-premise, however, your choices are quite limited and typically result in using traditional big-iron storage systems. In this talk, JJ will walkthrough a deploying and running a production-ready storage cluster using Kubernetes. Storage nodes can run as pods and enumerate the available storage devices within the cluster. JJ will show how some of the features of Kubernetes including controllers/operators, third-party resources, resource management, and rolling upgrades can lead to more powerful and resilient storage clusters."
   subtype: presentation
   speakers: [9]
   language: en
