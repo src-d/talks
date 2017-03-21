@@ -32,8 +32,8 @@
   complexity: "Intermediate"
 -
   id: 002
-  title: "Talk #1"
-  description: "Coming soon."
+  title: "Building a Billion User Load Balancer"
+  description: ""
   subtype: presentation
   speakers: [4]
   language: en

@@ -7,7 +7,7 @@
   bio: "David has been working as a Linux System Engineer / DevOps / DBA / Network engineer / Jack-of-all-trades for more than 15 years. Most recently he has specialized in optimizing and building the infrastructure for large scale database systems, including AWS Redshift, Facebook's MySQL infrastructure and MongoDB Atlas."
   thumbnailUrl: David-Fernandez.jpg
   rockstar: true
-  social: 
+  social:
     - {name: "linkedin", link: "https://ie.linkedin.com/in/deibyz"}
     - {name: "twitter", link: "https://twitter.com/deibyz"}
 -
@@ -15,11 +15,11 @@
   name: "James"
   surname: "Reilly"
   company: "Facebook"
-  title: "Production Engineer"
-  bio: "" 
+  title: "Network Production Engineer"
+  bio: "James Reilly is a Network Production Engineer at Facebook, where he mostly focuses on network monitoring and automation. Previously, he worked on the Site Reliability Operations and Web Foundation teams where he focused on keeping the website up and running and automating himself. In his free time he enjoys playing with various electronics and fermentation experiments."
   thumbnailUrl: James-Reilly.jpg
   rockstar: true
-  social: 
+  social:
     - {name: "linkedin", link: "https://ie.linkedin.com/in/james-reilly-19610923"}
     - {name: "twitter", link: "https://twitter.com/servsockd"}
 -
@@ -34,8 +34,8 @@
   social: 
     - {name: "linkedin", link: "https://es.linkedin.com/in/acostaalfonso"}
     - {name: "twitter", link: "https://twitter.com/2opremio"}
-    - {name: "github", link: "https://github.com/2opremio"}  
-- 
+    - {name: "github", link: "https://github.com/2opremio"}
+-
   id: 6
   name: "Alejandro"
   surname: "Guirao"
@@ -47,7 +47,7 @@
   social:
     - {name: "linkedin", link: "https://es.linkedin.com/in/alejandro-guirao-rodríguez-744232a"}
     - {name: "twitter", link: "https://twitter.com/lekum"}
-    - {name: "github", link: "https://github.com/lekum"}       
+    - {name: "github", link: "https://github.com/lekum"}
 -
   id: 7
   name: "Sonia"
