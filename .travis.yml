@@ -1,0 +1,2 @@
+language: generic # don't install any environment
+script: bash ./bin/automated
