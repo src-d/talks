@@ -1,16 +1,19 @@
 .logo {
-    background-image: url($logos-sprite);
     background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 0 9px;
+    &.logo-light {
+        background-image: url(http://sourced.tech/img/logos/logo-white.svg);
+	}
     &.logo-dark {
-    	background-position: 0 -1px;
+        background-image: url(http://sourced.tech/img/logos/logo-blue.svg);
     }
     &.logo-gray {
-    	background-position: 0 -63px;
-	}
-	&.logo-light {
-	    background-position: 0 -127px;
-	}
+       background-image: url(http://sourced.tech/img/logos/logo-blue.svg);
+    }
+
 }
+
 .icon {
     display: inline-block;
     width: 16px;

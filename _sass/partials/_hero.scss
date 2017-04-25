@@ -14,14 +14,31 @@
         }
         p {
             font-size: $base-font-size * 2;
-            font-weight: $light;
+            font-weight: normal;
             margin-bottom: 15px;
         }
         .btn {
-            margin: 0 3px;
+            margin: 1.2em  3px;
+            font-size: 1.2em;
+            padding: 1em 2em;
+
+            @media (min-width: 767px) {
+                font-size: 1.4em;
+            }
         }
     }
 }
+@media (max-width: 767px) {
+    h1, .h1 {
+        font-size: 2.5em;
+        font-weight: 300;
+    }
+    .top-section-hero .jumbotron p {
+        font-size: 1.4em;
+        margin-bottom: 3em;
+    }
+}
+
 .typeout-fallback {
     display: none;
     @media (max-width: 767px) {
