@@ -1,2 +1,9 @@
-language: generic # don't install any environment
+language: ruby
+rvm:
+- 2.3.3
+
 script: bash ./bin/automated
+
+env:
+  global:
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
