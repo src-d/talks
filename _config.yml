@@ -12,7 +12,7 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 # Site Settings
 title: "source{d} tech talks"
 email: "talks@sourced.tech"
-description: "source{d} tech talks is a one day conference about infrastructure"
+description: "source{d} tech talks is a one day conference about machine learning"
 baseurl: ""
 url: "http://talks.sourced.tech"
 permalink: "/blog/:title"
@@ -23,13 +23,13 @@ siteVerification: "b9imDOrFawXaBXCC4r3uJDdswSYcalD-wWpMYhFq-no"
 # Organizer Info
 organizerName: "source{d}"
 organizerAlternateName: "source{d} tech talks"
-organizerDescription: "source{d} tech talks is a one-day conference about Infrastructure"
+organizerDescription: "source{d} tech talks is a one-day conference about Machine Learning"
 organizerEmail: "talks@sourced.tech"
 organizerLogo: "http://sourced.tech/img/logos/logo-blue.svg"
 organizerLink: "http://sourced.tech/"
 
 # Head
-metaKeywords: "event, talks, tech, srcd, devops, infrastructure, sourced, developers, madrid"
+metaKeywords: "event, talks, tech, srcd, machine learning, deep learninr, data science, nlp,sourced, developers, madrid, mathematicians, moscow, russia"
 twitterAccount: "@srcd_"
 socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png?v=2"
 socialImageSrcTwitter: "/img/seo/sharing-twitter.png?v=2"
@@ -42,55 +42,55 @@ navigationLinks:
  - {permalink: "/speakers/", text: "Speakers"}
  - {link: "https://blog.sourced.tech", text: "Blog"}
 rightNavigationButtons:
- - {link: "https://www.eventbrite.com/e/sourced-tech-talks-infrastructure-tickets-32181636140", text: "Get your ticket"}
+ - {link: "https://www.eventbrite.com/e/sourced-tech-talks-machine-learning-registration-33889167412", text: "Get your ticket"}
 
 # Hero Block
-heroImage: "venue/turing.jpg"
+heroImage: "venue/main-header-ml.jpg"
 heroTitle: "source{d} tech talks <typeout> 2017"
-eventDate: "Infrastructure Series - 25th of March"
-typeoutTextValues: '"Infrastructure", "Madrid", "First Series"'
-typeoutFallback: "Infrastructure"
+eventDate: "Machine Learning Series - 27th of May"
+typeoutTextValues: '"Machine Learning", "Moscow", "Second Series"'
+typeoutFallback: "Machine Learning"
 heroButtons:
- - {link: "https://www.eventbrite.com/e/sourced-tech-talks-infrastructure-tickets-32181636140", text: "Get your ticket"}
+ - {link: "https://www.eventbrite.com/e/sourced-tech-talks-machine-learning-registration-33889167412", text: "Get your ticket"}
 
 # About Block
 aboutTitle: "About our tech talks"
-aboutIntro: "We will be hosting great speakers in an informal setting <strong>every ~3 months</strong>. Each series of talks will cover a different topic <strong>targeted to an experienced technical audience</strong>. Speakers will be invited both <strong>from Spain and abroad</strong>."
+aboutIntro: "We will be hosting great speakers in an informal setting <strong>every ~3 months</strong>. Each series of talks will cover a different topic <strong>targeted to an experienced technical audience</strong>. Speakers will be invited both <strong>from Russia and abroad</strong>."
 
 aboutBlock:
  - {title: "Main Talks", image: "main-talks-icon.jpg", text: "We will hold five main talks throughout the day. These will last for 45min with time for Q&A." }
  - {title: "Lightning Talks", image: "lightning-talks-icon.jpg", text: "There will be two shorter talks held to address more specific topics." }
- - {title: "Food & Beers", image: "food-beers.jpg", text: "Besides breakfast, lunch and snacks, we will be launching our very own source{d} beer that day!" }
+ - {title: "Food & Beers", image: "food-beers.jpg", text: "Besides breakfast, lunch and snacks, we'll have plenty of drinks so that everyone can enjoy a great day!" }
 
 
 # Statistic Block
-statisticBlockImage: "venue/lovelace.jpg"
+statisticBlockImage: "venue/middle-header-ml.jpg"
 statisticBlock:
  - {count: "75", specialCharacter: "+", info: "attendees", detail: "from everywhere"}
- - {count: "8", specialCharacter: "+", info: "hours", detail: "of pure Infrastructure talks"}
- - {count: "7", info: "speakers", detail: "from Spain and beyond"}
+ - {count: "8", specialCharacter: "+", info: "hours", detail: "of pure Machine Learning talks"}
+ - {count: "7", info: "speakers", detail: "from Russia and beyond"}
 
 
 # Rockstar Speakers Block
-rockstarSpeakersImage: "venue/turing.jpg"
+rockstarSpeakersImage: "venue/middle-header-ml.jpg"
 rockstarSpeakersCount: 4
 rockstarSpeakersTitle: "Some speakers"
 rockstarSpeakersButtonText: "See all speakers"
 
 # Location Block
 locationBlockTitle: "Location"
-eventLocationName: "source{d} offices"
-eventStreetAddress: "Claudio Coello 16, 2 Izq."
-eventAddressLocality: "Madrid"
-eventPostalCode: "28001"
-eventAddressCountry: "Spain"
-eventStartTime: "2017-03-25T09:30"
+eventLocationName: "Specific location will be announced soon!"
+eventStreetAddress: "In the heart of"
+eventAddressLocality: "Moscow"
+eventPostalCode: ""
+eventAddressCountry: "Russia"
+eventStartTime: "2017-05-27T09:30"
 eventDoorTime: "09:30"
-eventEndTime: "2017-03-25T17:30"
-eventLocationMap: "https://www.google.es/maps/place/Calle+de+Claudio+Coello,+16,+28001+Madrid/"
-eventPlaceCoordinates: "40.422259,-3.6866953999999623"
-mapCenterCoordinates: "40.4222631,-3.6888894"
-mapMobileCenterCoordinates: "40.4222631,-3.6888894"
+eventEndTime: "2017-05-27T17:30"
+eventLocationMap: "https://www.google.es/maps/place/Moscow,+Russia/data=!4m2!3m1!1s0x46b54afc73d4b0c9:0x3d44d6cc5757cf4c?sa=X&ved=0ahUKEwiU_aKkh7HTAhUFVRQKHXKgApoQ8gEIITAA"
+eventPlaceCoordinates: "55.7494733, 37.35232"
+mapCenterCoordinates: "55.7494733, 37.35232"
+mapMobileCenterCoordinates: "55.7494733, 37.35232"
 
 # Tweets Feed Block
 tweetsFeedImage: "twitter-feed.jpg"
