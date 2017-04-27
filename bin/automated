@@ -6,11 +6,45 @@
 set -e
 
 # Variables
+SOURCE_BRANCH="master"
 ORIGIN_URL=`git config --get remote.origin.url`
 ORIGIN_CREDENTIALS=${ORIGIN_URL/\/\/github.com/\/\/$GH_TOKEN@github.com}
 COMMIT_MESSAGE=$(git log -1 --pretty=%B)
 TALKS=(infra-2017)
 ROOT_DIR=`pwd`
+
+function doBuild() {
+    # Build site.
+    bundle install
+    bundle exec jekyll build
+    for talk in $TALKS
+    do
+
+        cd ./$talk
+
+        bundle install
+        bundle exec jekyll build --destination $ROOT_DIR/_site/$talk --baseurl "/$talk"
+
+        rm $ROOT_DIR/_site/$talk/Gemfile
+
+        cd $ROOT_DIR
+    done
+
+    # Delete and move files.
+    cp CNAME _site
+    find . -maxdepth 1 ! -name '_site' ! -name '.git' ! -name '.gitignore' -exec rm -rf {} \;
+    mv _site/* .
+    rm -R _site/
+    rm Gemfile
+    rm Gemfile.lock
+}
+
+# Pull requests and commits to other branches shouldn't try to deploy, just build to verify
+if [ "$TRAVIS_PULL_REQUEST" != "false" -o "$TRAVIS_BRANCH" != "$SOURCE_BRANCH" ]; then
+    echo "Skipping deploy; just doing a build."
+    doBuild
+    exit $?
+fi
 
 echo "Started deploying"
 
@@ -21,27 +55,7 @@ then
 fi
 git checkout -b gh-pages
 
-# Build site.
-bundle install
-bundle exec jekyll build
-for talk in $TALKS
-do
-
-    cd ./$talk
-
-    bundle install
-    bundle exec jekyll build --destination $ROOT_DIR/_site/$talk --baseurl "/$talk"
-
-    cd $ROOT_DIR
-done
-
-# Delete and move files.
-cp CNAME _site
-find . -maxdepth 1 ! -name '_site' ! -name '.git' ! -name '.gitignore' -exec rm -rf {} \;
-mv _site/* .
-rm -R _site/
-rm Gemfile
-rm Gemfile.lock
+doBuild
 
 # Push to gh-pages.
 git config user.name "$USERNAME"
