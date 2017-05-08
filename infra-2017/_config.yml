@@ -42,7 +42,7 @@ navigationLinks:
  - {permalink: "/speakers/", text: "Speakers"}
  - {link: "https://blog.sourced.tech", text: "Blog"}
 rightNavigationButtons:
- - {link: "https://www.eventbrite.com/e/sourced-tech-talks-infrastructure-tickets-32181636140", text: "Get your ticket"}
+ - {link: "https://www.youtube.com/watch?v=6Hti7IZR0QQ&list=PL5Ld68ole7j12-F7PF73sT6LD7_auKjST", text: "Watch the videos"}
 
 # Hero Block
 heroImage: "venue/turing.jpg"
@@ -51,7 +51,7 @@ eventDate: "Infrastructure Series - 25th of March"
 typeoutTextValues: '"Infrastructure", "Madrid", "First Series"'
 typeoutFallback: "Infrastructure"
 heroButtons:
- - {link: "https://www.eventbrite.com/e/sourced-tech-talks-infrastructure-tickets-32181636140", text: "Get your ticket"}
+ - {link: "https://www.youtube.com/watch?v=6Hti7IZR0QQ&list=PL5Ld68ole7j12-F7PF73sT6LD7_auKjST", text: "Watch the videos"}
 
 # About Block
 aboutTitle: "About our tech talks"
