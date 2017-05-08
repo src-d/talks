@@ -13,7 +13,7 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 title: "source{d} tech talks"
 email: "talks@sourced.tech"
 description: "source{d} tech talks is a one day conference about machine learning"
-baseurl: ""
+baseurl: "/machine-learning-2017"
 url: "http://talks.sourced.tech"
 permalink: "/blog/:title"
 googleAnalyticsTrackingId: "UA-69608223-4"
