@@ -19,15 +19,17 @@ function doBuild() {
     bundle exec jekyll build
     for talk in $TALKS
     do
-
+        echo "Generating $talk..."
         cd ./$talk
 
         bundle install
+        echo "bundle exec jekyll build --destination $ROOT_DIR/_site/$talk --baseurl '/$talk'"
         bundle exec jekyll build --destination $ROOT_DIR/_site/$talk --baseurl "/$talk"
 
         rm $ROOT_DIR/_site/$talk/Gemfile
 
         cd $ROOT_DIR
+        echo "$talk generated"
     done
 
     # Delete and move files.
