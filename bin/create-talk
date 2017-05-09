@@ -89,3 +89,14 @@ File.write(automated, File.read(automated).gsub(talks_list_regex) do |line|
   "TALKS=\"#{talks.join(' ')}\""
 end
 )
+
+_landing_talk = File.join(ROOT_DIR, 'landing', '_current_talks', "#{TALK_NAME}.md")
+File.write(_landing_talk, <<TALK_DATA)
+---
+name: #{TALK_NAME}
+date: 2017-12-31
+link: #{TALK_NAME}
+city: Madrid, Spain
+image: /img/editions/#{TALK_NAME}.png
+---
+TALK_DATA

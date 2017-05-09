@@ -15,8 +15,10 @@ ROOT_DIR=`pwd`
 
 function doBuild() {
     # Build site.
+    cd landing
     bundle install
-    bundle exec jekyll build
+    bundle exec jekyll build --destination $ROOT_DIR/_site
+    cd $ROOT_DIR
     for talk in $TALKS
     do
         echo "Generating $talk..."

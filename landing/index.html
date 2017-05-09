@@ -1,0 +1,37 @@
+---
+layout: default
+permalink: /
+---
+
+{% if site.current_talks != empty %}
+    <section>
+        <h1>
+            Next talks
+        </h1>
+
+        <ul>
+            {% for talk in site.current_talks %}
+                <li>
+                    {% include current_talk.html talk=talk %}
+                </li>
+            {% endfor %}
+        </ul>
+
+    </section>
+{% endif %}
+
+{% if site.past_talks != empty %}
+<section>
+    <h1>
+        Past talks
+    </h1>
+    <ul>
+        {% for talk in site.past_talks %}
+            <li>
+                {% include past_talk.html talk=talk %}
+            </li>
+        {% endfor %}
+    </ul>
+</section>
+
+{% endif %}
