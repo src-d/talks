@@ -10,7 +10,7 @@ SOURCE_BRANCH="master"
 ORIGIN_URL=`git config --get remote.origin.url`
 ORIGIN_CREDENTIALS=${ORIGIN_URL/\/\/github.com/\/\/$GH_TOKEN@github.com}
 COMMIT_MESSAGE=$(git log -1 --pretty=%B)
-TALKS="infra-2017 machine-learning-2017"
+TALKS="infra-2017 machine-learning-2017 front-2017"
 ROOT_DIR=`pwd`
 
 function doBuild() {

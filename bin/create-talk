@@ -79,6 +79,17 @@ move PER_TALK, TALK, false do |src, dst|
   cp src, dst
 end
 
+EMPTY_DIRS = [
+  ["img", "people"],
+  ["img", TALK_NAME]
+]
+
+EMPTY_DIRS.each do |path|
+  dir = File.join(TALK, *path)
+  mkdir_p dir
+  touch File.join(dir, ".gitkeep")
+end
+
 _config = File.join(TALK, '_config.yml')
 File.write(_config, File.read(_config).gsub(/__name__/, TALK_NAME))
 automated = File.join(ROOT_DIR, "bin", "automated")
