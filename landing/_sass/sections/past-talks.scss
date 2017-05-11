@@ -1,0 +1,42 @@
+.past-talks {
+  width: 100%;
+  padding: 15rem 2rem 2rem 2rem;
+  background: transparent url(/img/footer.jpg) top right no-repeat;
+  background-size: cover;
+  min-height: 600px;
+  position: relative;
+  overflow-x: hidden;
+
+  &__slope {
+    position: absolute;
+    top: -1px;
+    left: 0;
+    right: 0;
+    width: 110%;
+    z-index: 0;
+  }
+
+  .talk-list {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 960px;
+    position: relative;
+    z-index: 5;
+  }
+}
+
+@media all and (max-width: 985px) {
+  .past-talks {
+    background: $bluishGrey;
+    min-height: auto;
+    padding: 4rem 2rem;
+
+    &__slope {
+      display: none;
+    }
+
+    .talk-list {
+      max-width: 470px;
+    }
+  }
+}
