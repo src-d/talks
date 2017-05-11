@@ -1,0 +1,16 @@
+.btn {
+    font-weight: $bold;
+    transition: $base-cubic-transition;
+}
+.btn-primary {
+    color: #fff !important;
+    user-select: none;
+    text-transform: uppercase;
+    border: 0;
+    background-color: $primary-color;
+    &:hover, &:focus, &:active, &.active {
+        outline: none;
+        color: #fff;
+        background-color: $primary-color-hover;
+    }
+}
