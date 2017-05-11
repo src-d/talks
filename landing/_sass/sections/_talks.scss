@@ -27,8 +27,8 @@
       }
 
       img {
-        width: 210px;
-        height: 160px;
+        width: 270px;
+        height: 180px;
         background-size: cover;
         box-shadow: 3px 3px 10px rgba(0, 0, 0, .1);
       }
@@ -41,7 +41,7 @@
     &__title {
       text-decoration: none;
       color: black;
-    
+
       h2 {
         text-transform: lowercase;
         font-weight: 300;
@@ -65,6 +65,7 @@
       display: block;
       color: $teal;
       margin-top: .5rem;
+      text-transform: lowercase;
     }
   }
 }
