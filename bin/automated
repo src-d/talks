@@ -18,6 +18,8 @@ function doBuild() {
     cd landing
     bundle install
     bundle exec jekyll build --destination $ROOT_DIR/_site
+    # We have some problems with jekyll not generating the CSS and this seems to fix it
+    bundle exec jekyll build --destination $ROOT_DIR/_site
     cd $ROOT_DIR
     for talk in $TALKS
     do
