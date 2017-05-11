@@ -29,7 +29,7 @@ organizerLogo: "http://sourced.tech/img/logos/logo-blue.svg"
 organizerLink: "http://sourced.tech/"
 
 # Head
-metaKeywords: "event, talks, tech, srcd, machine learning, deep learninr, data science, nlp,sourced, developers, madrid, mathematicians, moscow, russia"
+metaKeywords: "event, talks, tech, srcd, machine learning, deep learning, data science, nlp,sourced, developers, madrid, mathematicians, moscow, russia"
 twitterAccount: "@srcd_"
 socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png?v=2"
 socialImageSrcTwitter: "/img/seo/sharing-twitter.png?v=2"
@@ -42,16 +42,16 @@ navigationLinks:
  - {permalink: "/speakers/", text: "Speakers"}
  - {link: "https://blog.sourced.tech", text: "Blog"}
 rightNavigationButtons:
- - {link: "https://www.eventbrite.com/e/sourced-tech-talks-machine-learning-registration-33889167412", text: "Get your ticket"}
+ - {link: "https://sourced-tech-talks-ml.eventbrite.com", text: "Get your ticket"}
 
 # Hero Block
 heroImage: "venue/main-header-ml.jpg"
 heroTitle: "source{d} tech talks <typeout> 2017"
-eventDate: "Machine Learning Series - 27th of May"
+eventDate: "Machine Learning Series - 3rd of June"
 typeoutTextValues: '"Machine Learning", "Moscow", "Second Series"'
 typeoutFallback: "Machine Learning"
 heroButtons:
- - {link: "https://www.eventbrite.com/e/sourced-tech-talks-machine-learning-registration-33889167412", text: "Get your ticket"}
+ - {link: "https://sourced-tech-talks-ml.eventbrite.com", text: "Get your ticket"}
 
 # About Block
 aboutTitle: "About our tech talks"

@@ -25,31 +25,41 @@
 -
   id: 001
   title: "Welcome"
-  description: ""
+  description: "Eiso Kant, CEO & Co-Founder at source{d}, will introduce the event briefly before we get started."
   subtype: presentation
-  speakers: [Maximo Cuadros]
+  speakers: [Eiso Kant]
   language: en
   complexity: "Intermediate"
 -
   id: 002
-  title: "To be announced soon!"
-  description: ""
+  title: "Statistical Analysis of Computer Program Text"
+  description: "Billions of lines of source code have been written, many of which are freely available on the Internet. This code contains a wealth of implicit knowledge about how to write software that is easy to read, avoids common bugs, and uses popular libraries effectively. 
+
+We want to extract this implicit knowledge by analyzing source code text. To do this, we employ the same tools from machine learning and natural language processing that have been applied successfully to natural language text. After all, source code is also a means of human communication.
+
+We present three new software engineering tools inspired by this insight:
+
+Naturalize, a system that learns local coding conventions. It proposes revisions to names and to formatting so as to make code more consistent. A version that uses word embeddings has shown promise toward naming methods and classes.
+
+Data mining methods have been widely applied to summarize the patterns about how programmers invoke libraries and APIs. We present a new method for mining market basket data, based on a simple generative probabilistic model, that resolves fundamental statistical pathologies that lurk in popular current data mining techniques.
+
+HAGGIS, a system that learns local recurring syntactic patterns, which we call idioms. HAGGIS accomplishes this using a nonparametric Bayesian tree substitution grammar, and is delicious with whisky sauce."
   subtype: presentation
   speakers: [4]
   language: en
   complexity: "Intermediate"
 -
   id: 003
-  title: "To be announced soon!"
+  title: "Similarity of GitHub repositories by source code identifiers"
   description: ""
   subtype: presentation
-  speakers: [5]
+  speakers: [6]
   language: en
   complexity: "Intermediate"
 -
   id: 004
-  title: "To be announced soon!"
-  description: ""
+  title: "Mining GitHub for fun and profit"
+  description: "With over >30 million repositories and >10 million users, GitHub is currently the largest code hosting site in the world. Software engineering researchers have been drawn to GitHub due to this popularity, as well as its integrated social features and the metadata that can be accessed through its API. To make research with GitHub data approachable, I created the GHTorrent project, a real-time, scalable, off-line mirror of all data offered through the GitHub API. In my talk, I will discuss the GHTorrent project in detail and present insights drawn from using it in various research works."
   subtype: presentation
   speakers: [8]
   language: en
@@ -70,21 +80,30 @@
   speakers: [9]
   language: en
   complexity: "Intermediate"
+-
+  id: 007
+  title: "Neural Complete - A Neural Network to help humans write neural networks"
+  description: "In this talk, it will be shown how to generate auto completion suggestions for code by using a neural network. Such a neural network is not only capable of utilising personal code, but also benefits from massive datasets containing previously written code. The architecture of the neural network will be explained; we will zoom in on the current limitations, and possible improvements will be discussed.
 
+The 'Neural Complete' framework is available (https://github.com/kootenpv/neural_complete) for quickly testing new
+neural network models on all sorts of code related data."
+  subtype: presentation
+  speakers: [7]
+  language: en
+  complexity: "Intermediate"
 -
   id: 302
-  title: "To be announced soon!"
+  title: "Embedding the GitHub contribution graph"
+  description: ""
+  subtype: lighting
+  speakers: [5]
+  language: en
+  complexity: "Intermediate"
+-
+  id: 303
+  title: "Predicting memory allocations using a recurrent neural network"
   description: ""
   subtype: lighting
   speakers: [6]
-  language: en
-  complexity: "Intermediate"
-
--
-  id: 303
-  title: "To be announced soon!"
-  description: ""
-  subtype: lighting
-  speakers: [7]
   language: en
   complexity: "Intermediate"
