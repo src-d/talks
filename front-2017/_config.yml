@@ -45,7 +45,7 @@ rightNavigationButtons:
  - {link: "", text: "Get your ticket"}
 
 # Hero Block
-heroImage: "venue/main-header-.jpg"
+heroImage: "venue/main-header-front.jpg"
 heroTitle: "source{d} tech talks <typeout> 2017"
 eventDate: "Frontend Series - 27th of May"
 typeoutTextValues: '"Frontend", "Madrid", "Third Series"'
@@ -72,7 +72,7 @@ statisticBlock:
 
 
 # Rockstar Speakers Block
-rockstarSpeakersImage: "venue/middle-header-ml.jpg"
+rockstarSpeakersImage: "venue/middle-header-front.jpg"
 rockstarSpeakersCount: 4
 rockstarSpeakersTitle: "Some speakers"
 rockstarSpeakersButtonText: "See all speakers"
