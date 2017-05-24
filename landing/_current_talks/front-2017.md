@@ -1,7 +1,7 @@
 ---
-name: front-2017
-date: 2017-12-31
+name: front 2017
+date: 2017-06-24
 link: front-2017
 city: Madrid, Spain
-image: /img/editions/front-2017.png
+image: /img/editions/img_front.png
 ---
