@@ -10,7 +10,7 @@
   social:
     - {name: "linkedin", link: "https://de.linkedin.com/in/jessicajordanfedev"}
     - {name: "twitter", link: "https://twitter.com/jjordan_dev"}
-    - {name: "github", link: "https://github.com/jessica-jordan"}  
+    - {name: "github", link: "https://github.com/jessica-jordan"}
 
 -
   id: 4
@@ -40,7 +40,7 @@ I have been working in the computer world for over ten years, making accessible 
     - {name: "twitter", link: "https://twitter.com/kastwey"}
     - {name: "github", link: "https://github.com/kastwey"}
 
-- 
+-
   id: 6
   name: "Alex"
   surname: "Guerrero"
@@ -60,13 +60,13 @@ I have been working in the computer world for over ten years, making accessible 
   surname: "Guijarro"
   company: "Hundredrooms"
   title: "Frontend Developer"
-  bio: "Ramón is a creative web developer with an interest indesign, communication and data. He's a JavaScript and React enthusiast who likes to share the little he knows as much as he can. He also likes to find out about unexpected uses for the web. Making up silly personal needs in order to solve them with equally silly code projects is another of his questionable virtues."
+  bio: "Ramón is a creative web developer with an interest in design, communication and data. He's a JavaScript and React enthusiast who likes to share the little he knows as much as he can. He also likes to find out about unexpected uses for the web. Making up silly personal needs in order to solve them with equally silly code projects is another of his questionable virtues."
   thumbnailUrl: Ramon-Guijarro.png
   rockstar: true
   social:
      - {name: "linkedin", link: "https://www.linkedin.com/in/soyguijarro"}
      - {name: "twitter", link: "https://twitter.com/soyguijarro"}
-     - {name: "github", link: "https://github.com/soyguijarro"}  
+     - {name: "github", link: "https://github.com/soyguijarro"}
 
 -
   id: 8
@@ -75,14 +75,8 @@ I have been working in the computer world for over ten years, making accessible 
   company: "source{d}"
   title: "Senior Platform Engineer"
   bio: ""
-  thumbnailUrl: Miguel-Molina.png 
-  rockstar: 
+  thumbnailUrl: Miguel-Molina.png
+  rockstar:
   social:
      - {name: "twitter", link: "https://twitter.com/erizocosmico"}
-     - {name: "github", link: "https://github.com/erizocosmico"}  
-
--
-  id: 9
-
-
-
+     - {name: "github", link: "https://github.com/erizocosmico"}
