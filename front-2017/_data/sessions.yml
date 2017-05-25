@@ -32,34 +32,50 @@
   complexity: "Intermediate"
 -
   id: 002
-  title: "To be announced soon!"
-  description: ""
+  title: "The multithreaded web: a tale of workers"
+  description: "With the recent advent of Progressive Web Apps, Service Workers are becoming more well-known and widespread. However, there doesn't seem to be much talk around Web Workers in general anymore, and some might not even know about them yet. This talk combinedly explores the different ways browsers give us to run scripts in background threads, what we can do with them and their differences and similarities."
   subtype: presentation
-  speakers: [4]
+  speakers: [7]
   language: en
   complexity: "Intermediate"
 -
   id: 003
-  title: "To be announced soon!"
-  description: ""
+  title: "Web accessibility. How to make a front end for everyone?"
+  description: "When we develop a frontend for a website, our objective, among others, is that those who access them love the experience, and can connect in a comfortable way from all types of devices. But are we really getting to everyone?
+
+Many people know the concept of accessibility, or at least have heard of it. However, very few people have the knowledge and experience to implement it effectively. What is it? Why is it important? How is it done? Will it negatively affect my application design? Sould I charge my clients more money in order to make their web accessible? Can I use any technology?
+
+In this talk, I will answer all of these questions, and I will provide you all necessary tools and references to make an accessible development, but also to check if you have done correctly, using the applications that the different disability profiles use. 
+
+'Power of the Web is in its universality. Access by everyone regardless of disability is an essential aspect.' - Tim Berners-Lee, W3C director and inventor of the World Wide Web
+
+Do you venture to learn how to do it?"
   subtype: presentation
   speakers: [5]
   language: en
   complexity: "Intermediate"
 -
   id: 004
-  title: "To be announced soon!"
-  description: ""
+  title: "Animate the Web with Ember.js"
+  description: "Were you a fan of animated cartoons as a kid, and wondered if one day you could create your own? Here's the great news: you can! Using open web standards and Ember.js you're able to create frame-by-frame animations—and even to make them interactive! 
+
+In this talk you will learn how open web standards empower creators to tell animated stories and deliver them through the web. Alongside animation demos you will see how you can leverage the power of two Web APIs - HTML5 Canvas and the Web Animations API - in Ember efficiently and how you can embed your animations in Ember components for full flexibility and reusability across your app."
   subtype: presentation
-  speakers: [8]
+  speakers: [3]
   language: en
   complexity: "Intermediate"
 -
   id: 005
-  title: "To be announced soon!"
-  description: ""
+  title: "Getting The Most Out Of SVGs"
+  description: "Despite its proven versatility and its level of support in modern browsers, SVG seems to be one of the most underestimated field in the front-end world. It is common to see developers link SVG files using only the 'src' attribute and ignore all the great opportunities this standard can offer.
+
+SVGs are frequent used in articles and real cases to make complex animations, however, they can offer many more possibilities for developers. Among the great benefits that come from fully exploring the uses of this format are many related to performance, accessibility and improvements in development workflow.
+
+Throughout this talk, I will offer some different approaches, tips and tricks using basic techniques and also approach more advanced topics. Finally, we will look up to the horizon and see what the future holds for this standard.
+
+The content level of this talk was designed to accommodate both individuals who have previous knowledge dealing with SVGs and those who have come to the talk to learn about what this format can do. Its main objective is to point out the many benefits of using this standard, sparking curiosity and igniting interest in exploring all the features it offers. And ultimate, to motivate participants to use these SVG practices to improve their own work."
   subtype: presentation
-  speakers: [3]
+  speakers: [6]
   language: en
   complexity: "Intermediate"
 -
@@ -67,16 +83,16 @@
   title: "To be announced soon!"
   description: ""
   subtype: presentation
-  speakers: [9]
+  speakers: [4]
   language: en
   complexity: "Intermediate"
 
 -
   id: 302
-  title: "To be announced soon!"
-  description: ""
+  title: "Communication is the key to a healthy relationship: the love story of Elm and JavaScript"
+  description: "One of the must-haves for any compile-to-JS language, such as Elm, is the interoperability with JavaScript. In this talk, we'll explore how Elm communicates with JavaScript and why the language made certain choices - that may seem counterintuitive at first sight."
   subtype: lighting
-  speakers: [6]
+  speakers: [8]
   language: en
   complexity: "Intermediate"
 
