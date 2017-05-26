@@ -90,7 +90,7 @@ The content level of this talk was designed to accommodate both individuals who 
 -
   id: 302
   title: "Communication is the key to a healthy relationship: the love story of Elm and JavaScript"
-  description: "One of the must-haves for any compile-to-JS language, such as Elm, is the interoperability with JavaScript. In this talk, we'll explore how Elm communicates with JavaScript and why the language made certain choices - that may seem counterintuitive at first sight."
+  description: "One of the must-haves for any compile-to-JS language, such as Elm, is the interoperability with JavaScript. In this talk, we'll explore how Elm communicates with JavaScript and why the language made certain choices that may seem counterintuitive at first sight."
   subtype: lighting
   speakers: [8]
   language: en
