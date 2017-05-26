@@ -47,7 +47,7 @@ rightNavigationButtons:
 # Hero Block
 heroImage: "venue/main-header-front.jpg"
 heroTitle: "source{d} tech talks <typeout> 2017"
-eventDate: "Frontend Series - 27th of May"
+eventDate: "Frontend Series - 24th of June"
 typeoutTextValues: '"Frontend", "Madrid", "Third Series"'
 typeoutFallback: "Frontend"
 heroButtons:
@@ -55,7 +55,7 @@ heroButtons:
 
 # About Block
 aboutTitle: "About our tech talks"
-aboutIntro: "We will be hosting great speakers in an informal setting <strong>every ~3 months</strong>. Each series of talks will cover a different topic <strong>targeted to an experienced technical audience</strong>. Speakers will be invited both <strong>from Russia and abroad</strong>."
+aboutIntro: "We will be hosting great speakers in an informal setting <strong>every ~3 months</strong>. Each series of talks will cover a different topic <strong>targeted to an experienced technical audience</strong>. Speakers will be invited both <strong>from Spain and abroad</strong>."
 
 aboutBlock:
  - {title: "Main Talks", image: "main-talks-icon.jpg", text: "We will hold five main talks throughout the day. These will last for 45min with time for Q&A." }
@@ -67,8 +67,8 @@ aboutBlock:
 statisticBlockImage: "venue/middle-header-front.jpg"
 statisticBlock:
  - {count: "75", specialCharacter: "+", info: "attendees", detail: "from everywhere"}
- - {count: "8", specialCharacter: "+", info: "hours", detail: "of pure Machine Learning talks"}
- - {count: "7", info: "speakers", detail: "from Russia and beyond"}
+ - {count: "8", specialCharacter: "+", info: "hours", detail: "of pure Frontend talks"}
+ - {count: "7", info: "speakers", detail: "from Spain and beyond"}
 
 
 # Rockstar Speakers Block
