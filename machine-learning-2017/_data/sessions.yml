@@ -69,7 +69,7 @@ HAGGIS, a system that learns local recurring syntactic patterns, which we call i
   title: "Probabilistic Programming for Mere Mortals"
   description: "It is an introductory talk about the subject which became popular in recent years. The talk will cover few crucial aspects of the subject such as what is probabilistic programming and what kind of problems probabilistic programming can solve? Its relationship with machine learning techniques also will be covered. Tools and programming languages will be mentioned in the context of practical applications of probabilistic programing. Moreover we will discuss some ideas about how to implement probabilistic programming language and how to embed probabilistic programming capabilities into a general purpose programming language. No preliminary knowledge about the subject is required."
   subtype: presentation
-  speakers: [999999999]
+  speakers: [9]
   language: en
   complexity: "Intermediate"
 -
@@ -77,7 +77,7 @@ HAGGIS, a system that learns local recurring syntactic patterns, which we call i
   title: "To be announced soon!"
   description: ""
   subtype: presentation
-  speakers: [9]
+  speakers: [10]
   language: en
   complexity: "Intermediate"
 -
