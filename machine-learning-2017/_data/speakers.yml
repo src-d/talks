@@ -69,3 +69,19 @@ Among his projects: computer vision to determine car damage, lead generation by 
          - {name: "linkedin", link: "https://www.linkedin.com/in/georgiosgousios"}
          - {name: "twitter", link: "https://twitter.com/gousiosg"}
          - {name: "github", link: "https://github.com/gousiosg"}
+
+-
+  id: 9
+  name: "Vitaly"
+  surname: "Khudobakhshov"
+  company: "Одноклассники"
+  title: "Lead Analyst"
+  bio: "I graduated from St.-Petersburg State University in Computational Physics. I used to do some research in mathematics but my favourite subject is functional programming. Right now I am a senior analyst and data scientist in a social network ok.ru. I am also an experienced Apache Spark user. 4 years ago I encountered a probabilistic programming for the first time. The main goal of my talk is to give a review of this facinating subject for the wider audience."
+  thumbnailUrl: Vitaly-K.jpg
+  rockstar: true
+  social: 
+         - {name: "linkedin", link: "linkedin.com/in/vitaly-khudobakhshov-9ab9b999"}
+         - {name: "twitter", link: "https://twitter.com/khudobakhshov"}
+
+
+
