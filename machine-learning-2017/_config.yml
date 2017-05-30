@@ -87,10 +87,10 @@ eventAddressCountry: "Russia"
 eventStartTime: "2017-05-27T09:30"
 eventDoorTime: "09:30"
 eventEndTime: "2017-05-27T17:30"
-eventLocationMap: "https://www.google.com/maps/place/Rochdelskaya+ulitsa,+15,+Moskva,+Russia,+123022/@55.7576888,37.5504322,14.9z/data=!4m5!3m4!1s0x46b54bcded486145:0x2b5c70bc8d062be1!8m2!3d55.75677!4d37.562618"
-eventPlaceCoordinates: "55.7576888,37.5504322"
-mapCenterCoordinates: "55.7576888,37.5504322"
-mapMobileCenterCoordinates: "55.756773,37.5604293"
+eventLocationMap: 'https://www.google.com/maps/place/Those+key+hub/@55.7554019,37.5611964,17z/data=!3m1!4b1!4m5!3m4!1s0x46b54bcdd9516be9:0x97a7de2e168fea9c!8m2!3d55.7554019!4d37.5633851'
+eventPlaceCoordinates: "55.7554019,37.5611964"
+mapCenterCoordinates: "55.7554019,37.5611964"
+mapMobileCenterCoordinates: "55.7554019,37.5611964"
 
 # Tweets Feed Block
 tweetsFeedImage: "twitter-feed.jpg"
