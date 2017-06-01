@@ -1,4 +1,4 @@
--
+
   id: 6
   name: "Vadim"
   surname: "Markovtsev"
@@ -62,8 +62,8 @@ Among his projects: computer vision to determine car damage, lead generation by 
   surname: "Sapunov"
   company: "Inten.to"
   title: "CTO and Co-Founder"
-  bio: ""
-  thumbnailUrl: 
+  bio: "Software engineer with more than 20 years programming experience. Interested in data science and life sciences. Currently CTO and Co-founder of Intento, which benchmarks Cognitive Services and provides a single API to use all of them. Ph.D. in Artiﬁcial Intelligence, previously a consultant at IBM Watson, deep learning expert at RoadAR, data science expert & product manager at Stepik, and Tech Lead at Yandex News."
+  thumbnailUrl: Grigory-S.jpg
   rockstar: true
   social:
          - {name: "linkedin", link: "https://www.linkedin.com/in/grigorysapunov/"}

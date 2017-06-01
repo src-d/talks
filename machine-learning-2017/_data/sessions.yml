@@ -58,7 +58,7 @@ HAGGIS, a system that learns local recurring syntactic patterns, which we call i
   complexity: "Intermediate"
 -
   id: 004
-  title: "To be announced soon."
+  title: "Sequence Learning and modern RNNs"
   description: ""
   subtype: presentation
   speakers: [8]
@@ -74,7 +74,7 @@ HAGGIS, a system that learns local recurring syntactic patterns, which we call i
   complexity: "Intermediate"
 -
   id: 006
-  title: "To be announced soon!"
+  title: "Sequence Learning and modern RNNs"
   description: ""
   subtype: presentation
   speakers: [10]
