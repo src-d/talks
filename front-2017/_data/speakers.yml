@@ -18,8 +18,8 @@
   surname: "Velasco"
   company: "Audiense"
   title: "Frontend Engineer"
-  bio: ""
-  thumbnailUrl: Javi-Velasco.jpg
+  bio: "Javier is Lead Frontend Engineer at Audiense and the author of React Toolbox, one of the most popular React UI Kits, used by huge companies like Netflix. He's passionate about the React ecosystem and Javascript in general, and he loves to make the code look like poetry. Last but not least, he's deeply in love with his dog."
+  thumbnailUrl: Javi-Velasco.png
   rockstar: true
   social:
     - {name: "linkedin", link: "https://es.linkedin.com/in/javivelasco"}

@@ -80,8 +80,8 @@ The content level of this talk was designed to accommodate both individuals who 
   complexity: "Intermediate"
 -
   id: 006
-  title: "To be announced soon!"
-  description: ""
+  title: "Flexible styling for highly reusable React components"
+  description: "React is a wonderful tool to write reusable ui components but it takes no decisions on how they should be styled. This leads to a huge amount of different styling approaches, most of them based on CSS in JS, that usually introduce some coupling with your code. Is it possible to skip this dependency and write components that don't depend on style? In this talk, we will go through some of the most interesting approaches made by styling libraries, analyzing what should they cover to make components highly reusable and customizable. Eventually, we will see a technique that the upcoming React Toolbox Core is going to use to ship complex components agnostic from style. We will see how really complex components like DatePickers can be reused and re-styled even for React Native."
   subtype: presentation
   speakers: [4]
   language: en
