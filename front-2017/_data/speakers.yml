@@ -44,8 +44,8 @@ I have been working in the computer world for over ten years, making accessible 
   id: 6
   name: "Alex"
   surname: "Guerrero"
-  company: ""
-  title: ""
+  company: "AdaLab"
+  title: "Frontend Instructor"
   bio: "Alex has a background in graphic design and began his career moving pixels around websites during his design studies. Since then, he has been working at several small startups and as a freelance designer helping companies create better web experiences. He is currently working as the frontend development teacher at AdaLab to help reduce the gender gap effecting the tech industry today."
   thumbnailUrl: Alex-Guerrero.jpg
   rockstar: true
