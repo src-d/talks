@@ -42,7 +42,7 @@ navigationLinks:
  - {permalink: "/speakers/", text: "Speakers"}
  - {link: "https://blog.sourced.tech", text: "Blog"}
 rightNavigationButtons:
- - {link: "https://sourced-tech-talks-ml.eventbrite.com", text: "Get your ticket"}
+ - {link: "", text: "Videos coming soon"}
 
 # Hero Block
 heroImage: "venue/main-header-ml.jpg"
@@ -51,7 +51,7 @@ eventDate: "Machine Learning Series - 3rd of June"
 typeoutTextValues: '"Machine Learning", "Moscow", "Second Series"'
 typeoutFallback: "Machine Learning"
 heroButtons:
- - {link: "https://sourced-tech-talks-ml.eventbrite.com", text: "Get your ticket"}
+ - {link: "", text: "Videos coming soon"}
 
 # About Block
 aboutTitle: "About our tech talks"
