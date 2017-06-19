@@ -2,9 +2,9 @@
   id: 3
   name: "Jessica"
   surname: "Jordan"
-  company: "Leadfeeder"
-  title: "Frontend Developer"
-  bio: "Jessica is a Berlin-based freelance frontend developer currently building ambitious web applications with Ember at Leadfeeder. She has given talks at tech meetups and conferences, including EmberConf 2017, jsDay 2017 and ClojureBridge Berlin 2016, and likes to share her passion for JavaScript, CSS and animations. Apart from that she is one of the co-organizers of the Ember.js Berlin meetup group, as well as a regular mentor and learner at workshops run under the umbrella of OpenTechSchool Berlin. Besides being enthusiastic about free technology learning resources, Jessica is a great fan of comics, animations and CSS and enjoys drawing her own stories in her spare time."
+  company: "simplabs"
+  title: "Software Engineer"
+  bio: "Jessica is a Berlin-based Software Engineer working at simplabs - a Munich based software company building web and mobile solutions and specialized in Ember.js, Phoenix and Ruby on Rails. She has given talks at tech meetups and conferences, including EmberConf 2017, jsDay 2017 and ClojureBridge Berlin 2016, and likes to share her passion for JavaScript, CSS and animations. Apart from that she is one of the co-organizers of the Ember.js Berlin meetup group and workshops under the umbrella of OpenTechSchool Berlin. Besides being enthusiastic about free technology learning resources, Jessica is a great fan of comics, animations and CSS and enjoys drawing her own stories in her spare time."
   thumbnailUrl: Jessica-Jordan.jpg
   rockstar: true
   social:
