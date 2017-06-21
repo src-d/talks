@@ -75,8 +75,20 @@ I have been working in the computer world for over ten years, making accessible 
   company: "source{d}"
   title: "Senior Platform Engineer"
   bio: "Miguel first and foremost is a polyglot with an immense passion for programming. Currently he works as a senior fullstack engineer at source{d} with Go, Javascript (more often functional then not), (whenever possible) Elm and the React ecosystem. "
-  thumbnailUrl: Miguel-Molina.png 
-  rockstar: 
+  thumbnailUrl: Miguel-Molina.png
+  rockstar: false
   social:
      - {name: "twitter", link: "https://twitter.com/erizocosmico"}
      - {name: "github", link: "https://github.com/erizocosmico"}
+-
+  id: 9
+  name: "Sergio"
+  surname: "Arbeo"
+  company: "source{d}"
+  title: "Lead Platform Engineer"
+  bio: "He was born. He grew. He trolled."
+  thumbnailUrl: Sergio-Arbeo.png
+  rockstar: false
+  social:
+     - {name: "twitter", link: "https://twitter.com/Serabe"}
+     - {name: "github", link: "https://github.com/Serabe"}

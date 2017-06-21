@@ -27,7 +27,7 @@
   title: "Welcome"
   description: ""
   subtype: presentation
-  speakers: [Maximo Cuadros]
+  speakers: [9]
   language: en
   complexity: "Intermediate"
 -
@@ -98,8 +98,8 @@ The content level of this talk was designed to accommodate both individuals who 
 
 -
   id: 303
-  title: "To be announced soon!"
-  description: ""
+  title: "Decorating Javascript"
+  description: "A quick introduction to Decorators in JavaScript. A new stage-2 feature that will change the way you use JavaScript forever."
   subtype: lighting
   speakers: [9]
   language: en
