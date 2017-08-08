@@ -12,3 +12,11 @@ _site/
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
+
+## Webpack
+**/node_modules
+**/src/js/bundle.js
+
+**/public
+
+package-lock.json
