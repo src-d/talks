@@ -42,7 +42,7 @@ navigationLinks:
  - {permalink: "/speakers/", text: "Speakers"}
  - {link: "https://blog.sourced.tech", text: "Blog"}
 rightNavigationButtons:
- - {link: "https://www.eventbrite.com/e/sourced-tech-talks-frontend-registration-33889725080", text: "Get your ticket"}
+ - {link: "https://www.youtube.com/playlist?list=PL5Ld68ole7j0WoBSrHt37xbehMgWI2oJj", text: "Watch the videos"}
 
 # Hero Block
 heroImage: "venue/main-header-front.jpg"
@@ -51,7 +51,7 @@ eventDate: "Frontend Series - 24th of June"
 typeoutTextValues: '"Frontend", "Madrid", "Third Series"'
 typeoutFallback: "Frontend"
 heroButtons:
- - {link: "https://www.eventbrite.com/e/sourced-tech-talks-frontend-registration-33889725080", text: "Get your ticket"}
+ - {link: "https://www.youtube.com/playlist?list=PL5Ld68ole7j0WoBSrHt37xbehMgWI2oJj", text: "Watch the videos"}
 
 # About Block
 aboutTitle: "About our tech talks"

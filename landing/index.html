@@ -16,14 +16,17 @@ permalink: /
             </p>
         </header>
 
-        {% if site.current_talks != empty %}
         <div class="talk-list">
-            <h2 class="talk-list__header">upcoming talks!</h2>
-            {% for talk in site.current_talks %}
-            {% include current_talk.html talk=talk %}
-            {% endfor %}
+            {% if site.current_talks != empty %}
+                <h2 class="talk-list__header">upcoming talks!</h2>
+                {% for talk in site.current_talks %}
+                {% include current_talk.html talk=talk %}
+                {% endfor %}
+            {% else %}
+                <h2 class="talk-list__header">we'll be back!</h2>
+                {% include empty_talk.html %}
+            {% endif %}
         </div>
-        {% endif %}
     </div>
 </section>
 

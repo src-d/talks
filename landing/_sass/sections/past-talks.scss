@@ -23,6 +23,13 @@
     position: relative;
     z-index: 5;
   }
+
+  .talk__info {
+    max-width: 350px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding-left: 1em;
+    padding-right: 1em;
+  }
 }
 
 @media all and (max-width: 985px) {
