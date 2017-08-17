@@ -2,11 +2,13 @@
 gems:
 - jekyll-sitemap
 safe: false
+destination: public
+source: src
 
 # Build Settings
 markdown: kramdown
 permalink: pretty
-exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
+exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME', 'node_modules']
 
 
 # Site Settings
@@ -80,7 +82,7 @@ rockstarSpeakersButtonText: "See all speakers"
 # Location Block
 locationBlockTitle: "Location"
 eventLocationName: "source{d} office"
-eventStreetAddress: "Claudio Coello 16, 2 Izquierda"
+eventStreetAddress: "Claudio Coello 16, 2 Izq."
 eventAddressLocality: "Madrid"
 eventPostalCode: "28001"
 eventAddressCountry: "Spain"

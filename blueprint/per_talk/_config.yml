@@ -2,11 +2,13 @@
 gems:
 - jekyll-sitemap
 safe: false
+destination: public
+source: src
 
 # Build Settings
 markdown: kramdown
 permalink: pretty
-exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
+exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME', 'node_modules']
 
 
 # Site Settings
