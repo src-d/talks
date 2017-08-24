@@ -1,6 +1,11 @@
 language: ruby
 rvm:
-- 2.3.3
+  - 2.3.3
+
+services:
+  - docker
+
+sudo: required
 
 cache:
     yarn: true
@@ -12,6 +17,10 @@ install:
     - npm install -g yarn
 
 script: bash ./bin/automated
+
+deploy:
+  - provider: script
+    script: ./bin/deploy
 
 env:
   global:
