@@ -1,0 +1,139 @@
+branches: [master, staging, release/*]
+
+pipeline:
+
+  clone:
+    image: plugins/git
+    debug: true
+
+
+  # build on pull requests
+
+  build:
+    image: ubuntu:xenial
+    environment:
+      - LANG=en_US.UTF-8
+      - LANGUAGE=en_US:en
+      - LC_ALL=en_US.UTF-8
+      - BASE_URL="//talks.sourced.tech/"
+    commands:
+      # we don't use rvm as install scripts need to be run under bash and not sh
+      # and Drone does not support custom shells yet. https://github.com/drone/drone/issues/1409
+      - apt-get update
+      - apt-get install -y curl git gcc make ruby2.3-dev libffi-dev zlib1g-dev locales
+      - gem install bundler
+      - locale-gen en_US.UTF-8
+      - curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.4/install.sh | bash
+      - . ~/.nvm/nvm.sh
+      - nvm install 8
+      - nvm use 8
+      - npm install -g yarn
+      - bash -x ./bin/automated
+    debug: true
+    when:
+      event: [pull_request]
+
+
+  # deployment to staging environment
+
+  build_stg:
+    image: ubuntu:xenial
+    environment:
+      - LANG=en_US.UTF-8
+      - LANGUAGE=en_US:en
+      - LC_ALL=en_US.UTF-8
+      - BASE_URL="//talks-staging.srcd.run/"
+    commands:
+      # we don't use rvm as install scripts need to be run under bash and not sh
+      # and Drone does not support custom shells yet. https://github.com/drone/drone/issues/1409
+      - apt-get update
+      - apt-get install -y curl git gcc make ruby2.3-dev libffi-dev zlib1g-dev locales
+      - gem install bundler
+      - locale-gen en_US.UTF-8
+      - curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.4/install.sh | bash
+      - . ~/.nvm/nvm.sh
+      - nvm install 8
+      - nvm use 8
+      - npm install -g yarn
+      - bash -x ./bin/automated
+    debug: true
+    when:
+      event: [push]
+      branch: [staging]
+
+  docker_stg:
+    image: plugins/docker
+    registry: quay.io
+    repo: quay.io/srcd/talks
+    secrets: [ docker_username, docker_password ]
+    tag: '${DRONE_COMMIT_SHA:0:7}'
+    dockerfile: Dockerfile
+    debug: true
+    when:
+      event: [push]
+      branch: [staging]
+
+  helm_deploy_stg:
+    image: quay.io/ipedrazas/drone-helm
+    skip_tls_verify: true
+    chart: ./helm-charts/talks
+    release: talks
+    prefix: STG
+    secrets: [ STG_API_SERVER, STG_KUBERNETES_TOKEN ]
+    values: ingress.globalStaticIpName=talks-staging,ingress.hosts={talks-staging.srcd.run},image.tag=${DRONE_COMMIT_SHA:0:7}
+    tiller_ns: kube-system
+    wait: true
+    when:
+      event: [push]
+      branch: [staging]
+
+
+  # deployment to production environment
+
+  build_prod:
+    image: ubuntu:xenial
+    environment:
+      - LANG=en_US.UTF-8
+      - LANGUAGE=en_US:en
+      - LC_ALL=en_US.UTF-8
+      - BASE_URL="//talks.sourced.tech/"
+    commands:
+      # we don't use rvm as install scripts need to be run under bash and not sh
+      # and Drone does not support custom shells yet. https://github.com/drone/drone/issues/1409
+      - apt-get update
+      - apt-get install -y curl git gcc make ruby2.3-dev libffi-dev zlib1g-dev locales
+      - gem install bundler
+      - locale-gen en_US.UTF-8
+      - curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.4/install.sh | bash
+      - . ~/.nvm/nvm.sh
+      - nvm install 8
+      - nvm use 8
+      - npm install -g yarn
+      - bash -x ./bin/automated
+    debug: true
+    when:
+      event: [tag]
+
+  docker_prod:
+    image: plugins/docker
+    registry: quay.io
+    repo: quay.io/srcd/talks
+    secrets: [ docker_username, docker_password ]
+    tag: '${DRONE_TAG}'
+    dockerfile: Dockerfile
+    debug: true
+    when:
+      event: [tag]
+
+  helm_deploy_prod:
+    image: quay.io/ipedrazas/drone-helm
+    skip_tls_verify: true
+    chart: ./helm-charts/talks
+    release: talks
+    prefix: PROD
+    secrets: [ PROD_API_SERVER, PROD_KUBERNETES_TOKEN ]
+    values: ingress.globalStaticIpName=talks-production,ingress.hosts={talks.sourced.tech},image.tag=${DRONE_TAG}
+    tiller_ns: kube-system
+    wait: true
+    when:
+      event: [tag]
