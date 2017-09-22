@@ -1,7 +1,5 @@
 #!/bin/bash
 
-# Automated deploy script with Travis CI.
-
 # Exit if any subcommand fails.
 set -e
 
