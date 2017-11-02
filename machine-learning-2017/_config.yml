@@ -27,8 +27,8 @@ organizerName: "source{d}"
 organizerAlternateName: "source{d} tech talks"
 organizerDescription: "source{d} tech talks is a one-day conference about Machine Learning"
 organizerEmail: "talks@sourced.tech"
-organizerLogo: "http://sourced.tech/img/logos/logo-blue.svg"
-organizerLink: "http://sourced.tech/"
+organizerLogo: "//sourced.tech/img/logos/logo-blue.svg"
+organizerLink: "//sourced.tech/"
 
 # Head
 metaKeywords: "event, talks, tech, srcd, machine learning, deep learning, data science, nlp,sourced, developers, madrid, mathematicians, moscow, russia"
@@ -42,7 +42,7 @@ navigationLinks:
  - {permalink: "/", text: "Home"}
  - {permalink: "/schedule/", text: "Schedule"}
  - {permalink: "/speakers/", text: "Speakers"}
- - {link: "https://blog.sourced.tech", text: "Blog"}
+ - {link: "//blog.sourced.tech", text: "Blog"}
 rightNavigationButtons:
  - {link: "https://www.youtube.com/playlist?list=PL5Ld68ole7j3iQFUSB3fR9122dHCUWXsy", text: "Watch the videos"}
 
@@ -120,8 +120,8 @@ footerBlocks:
  -
   title: "Links"
   links:
-   - {link: "http://sourced.tech/", text: "sourced{d}"}
-   - {link: "https://blog.sourced.tech/", text: "blog"}
+   - {link: "//sourced.tech/", text: "sourced{d}"}
+   - {link: "//blog.sourced.tech/", text: "blog"}
  -
   title: "Contacts"
   links:
