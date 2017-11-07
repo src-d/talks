@@ -26,8 +26,8 @@ organizerName: "source{d}"
 organizerAlternateName: "source{d} tech talks"
 organizerDescription: "source{d} tech talks is a one-day conference"
 organizerEmail: "talks@sourced.tech"
-organizerLogo: "http://sourced.tech/img/logos/logo-blue.svg"
-organizerLink: "http://sourced.tech/"
+organizerLogo: "//sourced.tech/img/logos/logo-blue.svg"
+organizerLink: "//sourced.tech/"
 
 # Head
 metaKeywords: "event, talks, tech, srcd, devops, sourced, developers, madrid"
@@ -45,8 +45,8 @@ footerBlocks:
  -
   title: "Links"
   links:
-   - {link: "http://sourced.tech/", text: "sourced{d}"}
-   - {link: "https://blog.sourced.tech/", text: "blog"}
+   - {link: "//sourced.tech/", text: "sourced{d}"}
+   - {link: "//blog.sourced.tech/", text: "blog"}
  -
   title: "Contacts"
   links:
