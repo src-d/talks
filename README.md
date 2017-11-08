@@ -1,4 +1,6 @@
 # source{d} Tech Talks pages
+[![Build Status](https://drone.srcd.host/api/badges/src-d/talks/status.svg)](https://drone.srcd.host/src-d/talks)
+[![Docker Repository on Quay](https://quay.io/repository/srcd/talks/status "Docker Repository on Quay")](https://quay.io/repository/srcd/talks)
 
 
 ## Creating a new talk
