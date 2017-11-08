@@ -28,7 +28,7 @@ pipeline:
       - nvm install 8
       - nvm use 8
       - npm install -g yarn
-      - bash -x ./bin/automated
+      - make build
     debug: true
     when:
       event: [pull_request]
@@ -55,7 +55,7 @@ pipeline:
       - nvm install 8
       - nvm use 8
       - npm install -g yarn
-      - bash -x ./bin/automated
+      - make build
     debug: true
     when:
       event: [push]
@@ -110,7 +110,7 @@ pipeline:
       - nvm install 8
       - nvm use 8
       - npm install -g yarn
-      - bash -x ./bin/automated
+      - make build
     debug: true
     when:
       event: [tag]
