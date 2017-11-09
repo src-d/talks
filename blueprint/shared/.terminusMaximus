@@ -1,4 +1,7 @@
 {
+    "//": "",
+    "//": "THIS IS A SHARED FILE",
+    "//":"",
     "errorHeight": 20,
     "scripts": {
         "server": {
@@ -6,7 +9,7 @@
             "commands": [
                 {
                     "label": "webpack",
-                    "command": "node_modules/.bin/webpack --watch",
+                    "command": "webpack --watch",
                     "screenConfig": {}
                 },
                 {
