@@ -94,6 +94,8 @@ end
 
 _config = File.join(TALK, '_config.yml')
 File.write(_config, File.read(_config).gsub(/__name__/, TALK_NAME))
+_package = File.join(TALK, 'package.json')
+File.write(_package, File.read(_package).gsub(/__name__/, TALK_NAME))
 automated = File.join(ROOT_DIR, "bin", "automated")
 talks_list_regex = /TALKS="([^"]+)"/
 File.write(automated, File.read(automated).gsub(talks_list_regex) do |line|
