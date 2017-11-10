@@ -85,3 +85,9 @@ convert image-orig.ext -scale 200 image.ext
 ```
 
 ## What happens after that?
+
+TBD
+
+## License
+
+MIT License, see [LICENSE](LICENSE)
