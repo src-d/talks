@@ -1,5 +1,6 @@
 ### General ###
 *.lock
+.ci
 
 ### Jekyll ###
 _site/

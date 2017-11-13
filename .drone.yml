@@ -10,25 +10,16 @@ pipeline:
   # build on pull requests
 
   build:
-    image: ubuntu:xenial
+    image: node:8.8-alpine
     environment:
-      - LANG=en_US.UTF-8
-      - LANGUAGE=en_US:en
-      - LC_ALL=en_US.UTF-8
       - BASE_URL="//talks.sourced.tech/"
     commands:
-      # we don't use rvm as install scripts need to be run under bash and not sh
-      # and Drone does not support custom shells yet. https://github.com/drone/drone/issues/1409
-      - apt-get update
-      - apt-get install -y curl git gcc make ruby2.3-dev libffi-dev zlib1g-dev locales
+      - apk add --update make bash curl git gcc libc-dev libffi-dev
+      - apk add --update gcc libc-dev libffi-dev zlib zlib-dev
+      - apk add --update ruby ruby-dev ruby-json
+      - "echo gem: --no-document >> ~/.gemrc"
       - gem install bundler
-      - locale-gen en_US.UTF-8
-      - curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.4/install.sh | bash
-      - . ~/.nvm/nvm.sh
-      - nvm install 8
-      - nvm use 8
-      - npm install -g yarn
-      - bash -x ./bin/automated
+      - make build
     debug: true
     when:
       event: [pull_request]
@@ -37,25 +28,16 @@ pipeline:
   # deployment to staging environment
 
   build_stg:
-    image: ubuntu:xenial
+    image: node:8.8-alpine
     environment:
-      - LANG=en_US.UTF-8
-      - LANGUAGE=en_US:en
-      - LC_ALL=en_US.UTF-8
       - BASE_URL="//talks-staging.srcd.run/"
     commands:
-      # we don't use rvm as install scripts need to be run under bash and not sh
-      # and Drone does not support custom shells yet. https://github.com/drone/drone/issues/1409
-      - apt-get update
-      - apt-get install -y curl git gcc make ruby2.3-dev libffi-dev zlib1g-dev locales
+      - apk add --update make bash curl git gcc libc-dev libffi-dev
+      - apk add --update gcc libc-dev libffi-dev zlib zlib-dev
+      - apk add --update ruby ruby-dev ruby-json
+      - "echo gem: --no-document >> ~/.gemrc"
       - gem install bundler
-      - locale-gen en_US.UTF-8
-      - curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.4/install.sh | bash
-      - . ~/.nvm/nvm.sh
-      - nvm install 8
-      - nvm use 8
-      - npm install -g yarn
-      - bash -x ./bin/automated
+      - make build
     debug: true
     when:
       event: [push]
@@ -92,25 +74,16 @@ pipeline:
   # deployment to production environment
 
   build_prod:
-    image: ubuntu:xenial
+    image: node:8.8-alpine
     environment:
-      - LANG=en_US.UTF-8
-      - LANGUAGE=en_US:en
-      - LC_ALL=en_US.UTF-8
       - BASE_URL="//talks.sourced.tech/"
     commands:
-      # we don't use rvm as install scripts need to be run under bash and not sh
-      # and Drone does not support custom shells yet. https://github.com/drone/drone/issues/1409
-      - apt-get update
-      - apt-get install -y curl git gcc make ruby2.3-dev libffi-dev zlib1g-dev locales
+      - apk add --update make bash curl git gcc libc-dev libffi-dev
+      - apk add --update gcc libc-dev libffi-dev zlib zlib-dev
+      - apk add --update ruby ruby-dev ruby-json
+      - "echo gem: --no-document >> ~/.gemrc"
       - gem install bundler
-      - locale-gen en_US.UTF-8
-      - curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.4/install.sh | bash
-      - . ~/.nvm/nvm.sh
-      - nvm install 8
-      - nvm use 8
-      - npm install -g yarn
-      - bash -x ./bin/automated
+      - make build
     debug: true
     when:
       event: [tag]
