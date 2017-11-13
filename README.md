@@ -2,86 +2,43 @@
 [![Build Status](https://drone.srcd.host/api/badges/src-d/talks/status.svg)](https://drone.srcd.host/src-d/talks)
 [![Docker Repository on Quay](https://quay.io/repository/srcd/talks/status "Docker Repository on Quay")](https://quay.io/repository/srcd/talks)
 
+This project lets you to create new source{d} talks running one single command. Each talk uses the [Project Zeppelin](CONTRIBUTING.md#project-zeppelin) as a blueprint and is stored under a dedicated directory as it was a single site. Read more about the architecture of the project in the [Architecture](CONTRIBUTING.md#site-architecture) section
 
-## Creating a new talk
+# Requirements
 
-Creating the site for a new talk is as easy as typing the following command:
+To build, run and create new talks you need:
 
-```shell
-bin/create-talk subfolder
-```
+- [Ruby](https://www.ruby-lang.org/es/)
+- [Jekyll](https://jekyllrb.com/) to build the static sites from plain text definitions,
+- [Bundler](http://bundler.io) to manage the ruby gems required by the project
+- [Yarn](https://yarnpkg.com/en/docs/install) to handle the js dependencies and locally run the project 
+- [Caddy](https://caddyserver.com) to serve the static files in production
 
-Usually, the subfolder follows the patterns `name-of-conference-year`.
+# Build
 
-This command will:
-
-* Add the talk to the list of talks to be built and deployed by our CI
-* Add a file to `landing/_current_talks` with the basic information for that
-  talk. In particular, look for a cool image to be shown in the landing and
-  don't forget to change the date.
-* Add a subfolder with the given name with a complete site to configure for
-  this new talk.
-
-You are now ready to edit your new site.
-
-## Editing a talk
-
-### _config.yml
-
-Please, make sure  you are comfortable working with the `_config.yml` file,
-since there is configured most of the things related to your new conference
-landing page. Especially, don't forget to:
-
-* Add the right link to your ticket sales system.
-* Configure the `metaKeywords`.
-* Configure the data related to the conference place, date and title.
-
-### Speakers
-
-Each speaker contains the following data, all of them compulsory and configured
-in `_data/speakers.yml`.
-
-- `id` will be used to reference the speakers in other places like the
-  schedule.
-- `name`
-- `surname`
-- `company`
-- `title`
-- `bio`
-- `thumnailUrl` is the path below `img/people` to the photo.
-- `rockstar` true if the candidate can be shown in the front page, false
-  otherwise.
-- `social` a collection of links.
-
-### Sessions
-
-TBD
-
-### Schedule
-
-TBD
-
-### images
-
-There are two types of images to consider: Section images and speaker images
-
-
-#### Section images
-
-Redimension the section images to have a width of maximum 1665 like this:
+You need to satisfy the [project requirements](#requirements), and then run from the project root:
 
 ```shell
-convert image-orig.ext -scale 1665 image.ext
+make build;
 ```
 
-#### Speaker images
+It will generate all the static files under `_site` directory which will be served by the Caddy server from the docker image.
 
-Photos need to be square to fit in both places nicely. Ask for one that at
-least can be cropped. Take your time since some photos might not be good for
-current design. After cropping it to a square, scale it to 200x200 like this:
+# Preview the talks
+
+To locally serve the blog, you need to satisfy the [project requirements](#requirements), and then run from the project root:
 
 ```shell
-convert image-orig.ext -scale 200 image.ext
+make serve;
 ```
+Finally, go to [http://localhost:8484](http://localhost:8484)
 
-## What happens after that?
+In case you want to develop over a talk, and preview and quick-refresh only that one, you should read the [Preview a talks](CONTRIBUTING.md#preview-a-talk) section
+
+# Contributing
+
+If you want to contribute to this project, or to write or edit a blog post, you will find more info in the [contribution guidelines](CONTRIBUTING.md).
+
+## License
+
+MIT License, see [LICENSE](LICENSE)
